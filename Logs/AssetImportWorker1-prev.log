@@ -1,0 +1,1042 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'es' Physical Memory: 16305 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/PC/Desktop/Lost-Gamble
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54875
+Successfully changed project path to: C:/Users/PC/Desktop/Lost-Gamble
+C:/Users/PC/Desktop/Lost-Gamble
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25828] Host "[IP] 192.168.68.108 [Port] 0 [Flags] 2 [Guid] 16322591 [EditorId] 16322591 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0MDNNVG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25828] Host "[IP] 192.168.68.108 [Port] 0 [Flags] 2 [Guid] 16322591 [EditorId] 16322591 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0MDNNVG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 11.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/Desktop/Lost-Gamble/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.8157
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011228 seconds.
+- Loaded All Assemblies, in  0.327 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 218 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.515 seconds
+Domain Reload Profiling: 839ms
+	BeginReloadAssembly (87ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (515ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (464ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (319ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.508 seconds
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 1967ms
+	BeginReloadAssembly (829ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (591ms)
+		LoadAssemblies (1099ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (464ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3683 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 4142.
+Memory consumption went from 159.0 MB to 157.6 MB.
+Total: 3.714000 ms (FindLiveObjects: 0.275500 ms CreateObjectMapping: 0.175100 ms MarkObjects: 2.884500 ms  DeleteObjects: 0.377800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.652 seconds
+Refreshing native plugins compatible for Editor in 4.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.846 seconds
+Domain Reload Profiling: 1494ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (223ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3616 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4145.
+Memory consumption went from 143.0 MB to 141.7 MB.
+Total: 3.217900 ms (FindLiveObjects: 0.258500 ms CreateObjectMapping: 0.176500 ms MarkObjects: 2.486100 ms  DeleteObjects: 0.296200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5758.468996 seconds.
+  path: Assets/Dialogo/StrangerDialogo/2PPTDialogo.png
+  artifactKey: Guid(509dd1cc61675e8419cae8993f83b75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogo/StrangerDialogo/2PPTDialogo.png using Guid(509dd1cc61675e8419cae8993f83b75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb88159597f9712c45efcc4f1eb3d802') in 0.098998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dialogo/StrangerDialogo/5PPTDialogo.png
+  artifactKey: Guid(172321a2644249e459904d90ac5e2d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogo/StrangerDialogo/5PPTDialogo.png using Guid(172321a2644249e459904d90ac5e2d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549713b911b4eadef5b8f94d35bf732a') in 0.034454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dialogo/StrangerDialogo/7PPTDialogo.png
+  artifactKey: Guid(f028353fcaab2354999a6b6f06618698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogo/StrangerDialogo/7PPTDialogo.png using Guid(f028353fcaab2354999a6b6f06618698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0660e0e2a016815e06da538bdd933ed') in 0.032032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dialogo/StrangerDialogo/9PPTDialogo.png
+  artifactKey: Guid(060942a341623c54d861e34cd9e58d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogo/StrangerDialogo/9PPTDialogo.png using Guid(060942a341623c54d861e34cd9e58d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6040b3bcd8a49dec1e47415751d906e5') in 0.027615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_2.png
+  artifactKey: Guid(cef3ff387c6af604db7992171611a9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_2.png using Guid(cef3ff387c6af604db7992171611a9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201538367b41006050b3b62015ea02e2') in 0.026700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_9.png
+  artifactKey: Guid(e6fdd2d0365c52446bdaaf41633a8968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_9.png using Guid(e6fdd2d0365c52446bdaaf41633a8968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40157ea178a29c453d698865acfd428') in 0.021319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Papel/Armature_PPT_02.png
+  artifactKey: Guid(b63b8a6211ab0fb4283840070a06391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Papel/Armature_PPT_02.png using Guid(b63b8a6211ab0fb4283840070a06391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66224383b35f9fac78f605fd8f6cb138') in 0.020962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Tijera/Armature_PPT_02.png
+  artifactKey: Guid(526c9c2b60bdd0540b3e2625a1aaf7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Tijera/Armature_PPT_02.png using Guid(526c9c2b60bdd0540b3e2625a1aaf7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6302a5f844b8d3639468bbb72f40970') in 0.024031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_03.png
+  artifactKey: Guid(bf6da5aba3ed2e246a174c59c22c9ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_03.png using Guid(bf6da5aba3ed2e246a174c59c22c9ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9142be5d99f78abb527d645bf751f657') in 0.023432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_04.png
+  artifactKey: Guid(1043265257646924fbd3bc2912843f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_04.png using Guid(1043265257646924fbd3bc2912843f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5610650efe89ceb594e3cddc56e53a9') in 0.023090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_4.png
+  artifactKey: Guid(ef463be1a4669614da2ce40554e03c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_4.png using Guid(ef463be1a4669614da2ce40554e03c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6537cb0859ffc3318a53a142ca3c8ab7') in 0.027933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_02.png
+  artifactKey: Guid(a07c8e3654cc7a142ae8e140a26e2228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_02.png using Guid(a07c8e3654cc7a142ae8e140a26e2228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92adba5f457667c97ff9c6ab0bdfd671') in 0.030060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dialogo/StrangerDialogo/10PPTDialogo.png
+  artifactKey: Guid(f1eb0b12a40ac904cb45cc1c5cd961ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogo/StrangerDialogo/10PPTDialogo.png using Guid(f1eb0b12a40ac904cb45cc1c5cd961ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6a222219b85635bea56b8f6deaa578') in 0.028944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_8.png
+  artifactKey: Guid(3cd5b18164311834b9c552e5b9658718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_8.png using Guid(3cd5b18164311834b9c552e5b9658718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f91f7522931787427441b5652b63b13') in 0.097786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_1.png
+  artifactKey: Guid(0e1de669e94adb8469c87f846bfbd8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_1.png using Guid(0e1de669e94adb8469c87f846bfbd8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618db4a2e4ab80e8f942ac0f0082e279') in 0.080205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_03.png
+  artifactKey: Guid(89c2e49fb3f8fd94d95855fb3240accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_03.png using Guid(89c2e49fb3f8fd94d95855fb3240accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf368f0b46f4d89cbada8e802f8fc378') in 0.026940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tricks/X2/V.PPT/Armature_PPT_01.png
+  artifactKey: Guid(9112c3033d7ecd7498dbc4a9bacd48ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/X2/V.PPT/Armature_PPT_01.png using Guid(9112c3033d7ecd7498dbc4a9bacd48ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a3b78dce68d6c6e2824862b962b5bd') in 0.028451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_01.png
+  artifactKey: Guid(20b918bfb82b06343bfe141e2fabe251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_01.png using Guid(20b918bfb82b06343bfe141e2fabe251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8c5b9c2ed17a681086b34353708bed') in 0.031759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tricks/X2/V.PPT/Armature_PPT_03.png
+  artifactKey: Guid(1ecf33ff10f28d44d8facc13b1181da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/X2/V.PPT/Armature_PPT_03.png using Guid(1ecf33ff10f28d44d8facc13b1181da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aaaf6659e9fb2c55a324439289d5db7') in 0.026933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_02.png
+  artifactKey: Guid(a1c7e86c129818142a811df1aab69805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_02.png using Guid(a1c7e86c129818142a811df1aab69805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9c60c42dda58cd3102e767cfbca9f5') in 0.026182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_02.png
+  artifactKey: Guid(9e442731f60a5d9428a621c19b0a4230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_02.png using Guid(9e442731f60a5d9428a621c19b0a4230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e1f82636d16b35f9fd5827df182c5a') in 0.025103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_7.png
+  artifactKey: Guid(cca8bf188832c0249b4c7602eb66996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_7.png using Guid(cca8bf188832c0249b4c7602eb66996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3e25a1a269865191903af073166e62') in 0.025021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dialogo/StrangerDialogo/8PPTDialogo.png
+  artifactKey: Guid(065597b3143923748aad858a02d648a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogo/StrangerDialogo/8PPTDialogo.png using Guid(065597b3143923748aad858a02d648a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe7bfda64da62766c3bcf2617b433af') in 0.030932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_03.png
+  artifactKey: Guid(b878508d15e10c1448991906f9afd655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_03.png using Guid(b878508d15e10c1448991906f9afd655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460928af8cd3836e94196376b56a596b') in 0.156028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.201980 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_04.png
+  artifactKey: Guid(4d2fb0081eafe2b46b0171bc556fe592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_04.png using Guid(4d2fb0081eafe2b46b0171bc556fe592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9eae0c31ecdd91bb329f6109e36ad7') in 0.024200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_05.png
+  artifactKey: Guid(5027dad28a0dbf740ae37c21db87fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_05.png using Guid(5027dad28a0dbf740ae37c21db87fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fb9c733e49b004587838ea7b3838f0') in 0.025808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_05.png
+  artifactKey: Guid(8d0647a9dfa357f40b0d07be45ebd304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_05.png using Guid(8d0647a9dfa357f40b0d07be45ebd304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0a1db0f272237db03e314978dcf2c4') in 0.026399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Tijera/Armature_PPT_06.png
+  artifactKey: Guid(9c0330ea637c91d4199274003ddefb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Tijera/Armature_PPT_06.png using Guid(9c0330ea637c91d4199274003ddefb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64badf2fea05c1fd74f3b703cfb3ecf') in 0.021930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_06.png
+  artifactKey: Guid(c008530533932b740aaa3d09a377c484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_06.png using Guid(c008530533932b740aaa3d09a377c484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083d57c917a5fcde016409652d6a4e1c') in 0.025771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_07.png
+  artifactKey: Guid(7e39a701af56f8c4cb458420284cf8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_07.png using Guid(7e39a701af56f8c4cb458420284cf8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb5fac4dca47c02f2d2ff866a4e611d') in 0.026207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Tijera/Armature_PPT_08.png
+  artifactKey: Guid(c71975d3eb5d6c8439ae273c282405e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Tijera/Armature_PPT_08.png using Guid(c71975d3eb5d6c8439ae273c282405e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f9fbe4c98bf7f5aaa3006b260e502d') in 0.025247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_08.png
+  artifactKey: Guid(ed3cacd6b20ea2d499af4eb31e7c88c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_08.png using Guid(ed3cacd6b20ea2d499af4eb31e7c88c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44f69fac3fb0a0689348012b5ae09ae') in 0.023324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_09.png
+  artifactKey: Guid(1c884e964f1e3f74eb29dcbb83ab2153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_09.png using Guid(1c884e964f1e3f74eb29dcbb83ab2153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054e07f19d7ed3656ca7f8da343732a1') in 0.024595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_10.png
+  artifactKey: Guid(328657d384990634ab4d8041107e7d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_10.png using Guid(328657d384990634ab4d8041107e7d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25892066d047d9e3e4113669430047d4') in 0.032786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_09.png
+  artifactKey: Guid(77140b5452e49fa48bbebd4fa17f92a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_09.png using Guid(77140b5452e49fa48bbebd4fa17f92a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e39b9a418c8c36899ed3d1ea65c96dd') in 0.022870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tricks/X2/V.PPT/Armature_PPT_11.png
+  artifactKey: Guid(4c99185cabe109f439d27a2b40941432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/X2/V.PPT/Armature_PPT_11.png using Guid(4c99185cabe109f439d27a2b40941432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ef86d2d23f531d2ea441570c215d82') in 0.020770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_11.png
+  artifactKey: Guid(dd6fa0a5cb16b6e4ebf511c4cfdfa085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_11.png using Guid(dd6fa0a5cb16b6e4ebf511c4cfdfa085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9deafd0e370d8e04716f41909c9705') in 0.023039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_12.png
+  artifactKey: Guid(e98a7f5442f226a4cbfa09385e98bbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_12.png using Guid(e98a7f5442f226a4cbfa09385e98bbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23d4e6706a9c83c1f70c3b44926da14') in 0.027608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Tijera/Armature_PPT_12.png
+  artifactKey: Guid(6085eed017e9994468dce43928a5abca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Tijera/Armature_PPT_12.png using Guid(6085eed017e9994468dce43928a5abca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5da001e729672de87ab40dc67cf947') in 0.021104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_13.png
+  artifactKey: Guid(d1c7c042dd3e3fe44aec1cfb56785c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_13.png using Guid(d1c7c042dd3e3fe44aec1cfb56785c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ce5f70499779ecfe7eaf39c4f75cb1') in 0.021861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tricks/X2/V.PPT/Armature_PPT_13.png
+  artifactKey: Guid(a2ceb64a3fb2b2f4c90afd88014ea314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/X2/V.PPT/Armature_PPT_13.png using Guid(a2ceb64a3fb2b2f4c90afd88014ea314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238f80116c9d3c276a93db0971d46b70') in 0.024875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_14.png
+  artifactKey: Guid(63cd92b997df1974fb4267bcf60e03b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_14.png using Guid(63cd92b997df1974fb4267bcf60e03b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163fb307cd8e57437ff86f4999fdb90e') in 0.025335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Papel/Armature_PPT_08.png
+  artifactKey: Guid(775192a561113204896a00f6c76c668a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Papel/Armature_PPT_08.png using Guid(775192a561113204896a00f6c76c668a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bf12ba2fa86b9da3b046e89bc79164') in 0.032065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Papel/Armature_PPT_15.png
+  artifactKey: Guid(15e7159061776df469f1db58f226ddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Papel/Armature_PPT_15.png using Guid(15e7159061776df469f1db58f226ddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a770f2234ec0e7d73a1cee382c877c') in 0.024453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_15.png
+  artifactKey: Guid(4929550c8d0ca4549a6894b3e3b0aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_15.png using Guid(4929550c8d0ca4549a6894b3e3b0aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5479e1d28be194860cf6d053a9091f') in 0.024877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.661905 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_16.png
+  artifactKey: Guid(fcae30b12b485d0418eea819fa8659db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_16.png using Guid(fcae30b12b485d0418eea819fa8659db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5380e8041ce1a6343da4d6c784a18c12') in 0.030539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016203 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Papel/Armature_PPT_16.png
+  artifactKey: Guid(b9edf71e3285ff040bf5b82b4acf171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Papel/Armature_PPT_16.png using Guid(b9edf71e3285ff040bf5b82b4acf171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637e0ee753b21626cc06eb830f89c1d0') in 0.057442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_17.png
+  artifactKey: Guid(134c454a5a2447647975d1e4e0bfbe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_17.png using Guid(134c454a5a2447647975d1e4e0bfbe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c83ba7650415a752c9d6c0486a2e4c') in 0.021057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_18.png
+  artifactKey: Guid(0b1e46a7be55ff04e97268bfb61327f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_18.png using Guid(0b1e46a7be55ff04e97268bfb61327f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038367fe5d437294b144d41035797e63') in 0.020107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_18.png
+  artifactKey: Guid(9cd8830e75915404a8e1d9eaa737f3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Piedra/Armature_PPT_18.png using Guid(9cd8830e75915404a8e1d9eaa737f3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91be7130e4d3c5bfd99edd551f8488b') in 0.026131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022046 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_19.png
+  artifactKey: Guid(adf8eaa204cbd14488f5368fd3ab13b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_19.png using Guid(adf8eaa204cbd14488f5368fd3ab13b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8c069b96bc6b144a521bea24eb3055') in 0.023692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005083 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_19.png
+  artifactKey: Guid(9e6cecddd1891124bb2dee161ca5685d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_19.png using Guid(9e6cecddd1891124bb2dee161ca5685d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcbac52b9957f405a6370de7980bec6') in 0.019950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006521 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_20.png
+  artifactKey: Guid(966061efa9d34fb4c95c3ebd833e7fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Papel-Piedra/Armature_PPT_20.png using Guid(966061efa9d34fb4c95c3ebd833e7fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd707e1be8ca57cb414ef39f1a5e1e036') in 0.046637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012379 seconds.
+  path: Assets/Tricks/X2/V.PPT/Armature_PPT_20.png
+  artifactKey: Guid(aec7fb00020956046975d1d99c13babc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/X2/V.PPT/Armature_PPT_20.png using Guid(aec7fb00020956046975d1d99c13babc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d977fceb344988196a2f033ed1e415') in 0.023425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_21.png
+  artifactKey: Guid(aa44897b80347b448b8cfce9082e21ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Piedra-Tijera/Armature_PPT_21.png using Guid(aa44897b80347b448b8cfce9082e21ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f993d511eb7e70c5c691674dd3914f2') in 0.026920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_21.png
+  artifactKey: Guid(78acda0c890be9d47942de8287328f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_PPT/Tijera-Papel/Armature_PPT_21.png using Guid(78acda0c890be9d47942de8287328f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74ebbf795f3346193790891e9e6957') in 0.020196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024102 seconds.
+  path: Assets/Tricks/X2/V.PPT/Armature_PPT_22.png
+  artifactKey: Guid(7b0d357eb62f2f5489c7ea537f589dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/X2/V.PPT/Armature_PPT_22.png using Guid(7b0d357eb62f2f5489c7ea537f589dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1a40b38e01085d8a11f3f6840ae013') in 0.026328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.781 seconds
+Refreshing native plugins compatible for Editor in 6.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1708ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (536ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (247ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (933ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4163.
+Memory consumption went from 142.9 MB to 141.6 MB.
+Total: 6.094000 ms (FindLiveObjects: 0.430500 ms CreateObjectMapping: 0.384300 ms MarkObjects: 4.739300 ms  DeleteObjects: 0.538700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.688 seconds
+Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.458 seconds
+Domain Reload Profiling: 2141ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (234ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1458ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (925ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (639ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3616 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4166.
+Memory consumption went from 143.1 MB to 141.8 MB.
+Total: 3.263400 ms (FindLiveObjects: 0.269000 ms CreateObjectMapping: 0.173200 ms MarkObjects: 2.519100 ms  DeleteObjects: 0.301400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.622 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.911 seconds
+Domain Reload Profiling: 1529ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (205ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (911ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3616 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4169.
+Memory consumption went from 143.1 MB to 141.8 MB.
+Total: 4.191500 ms (FindLiveObjects: 0.304900 ms CreateObjectMapping: 0.389700 ms MarkObjects: 3.179800 ms  DeleteObjects: 0.316300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.655 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.899 seconds
+Domain Reload Profiling: 1549ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (438ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (226ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (900ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (309ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3616 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4172.
+Memory consumption went from 143.1 MB to 141.8 MB.
+Total: 3.620300 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.175100 ms MarkObjects: 2.810100 ms  DeleteObjects: 0.360500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Desktop\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.657 seconds
+Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.854 seconds
+Domain Reload Profiling: 1507ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (218ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (854ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3616 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4175.
+Memory consumption went from 143.1 MB to 141.8 MB.
+Total: 4.627400 ms (FindLiveObjects: 0.542800 ms CreateObjectMapping: 0.291400 ms MarkObjects: 3.330400 ms  DeleteObjects: 0.461800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (1.3 MB). Loaded Objects now: 4175.
+Memory consumption went from 87.6 MB to 86.3 MB.
+Total: 3.920700 ms (FindLiveObjects: 0.452100 ms CreateObjectMapping: 0.218700 ms MarkObjects: 2.854100 ms  DeleteObjects: 0.395100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

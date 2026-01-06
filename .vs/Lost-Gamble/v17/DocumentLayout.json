@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Francisco\\Downloads\\Lost-Gamble\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09DDA89F-0741-182D-022E-26E4480D5668}|Assembly-CSharp.csproj|c:\\users\\francisco\\downloads\\lost-gamble\\assets\\animaciones\\scripts\\camara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DDA89F-0741-182D-022E-26E4480D5668}|Assembly-CSharp.csproj|solutionrelative:assets\\animaciones\\scripts\\camara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DDA89F-0741-182D-022E-26E4480D5668}|Assembly-CSharp.csproj|c:\\users\\francisco\\downloads\\lost-gamble\\assets\\animaciones\\scripts\\animacioncorrer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DDA89F-0741-182D-022E-26E4480D5668}|Assembly-CSharp.csproj|solutionrelative:assets\\animaciones\\scripts\\animacioncorrer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DDA89F-0741-182D-022E-26E4480D5668}|Assembly-CSharp.csproj|c:\\users\\francisco\\downloads\\lost-gamble\\assets\\menupausa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DDA89F-0741-182D-022E-26E4480D5668}|Assembly-CSharp.csproj|solutionrelative:assets\\menupausa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "camara.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco\\Downloads\\Lost-Gamble\\Assets\\Animaciones\\Scripts\\camara.cs",
+              "RelativeDocumentMoniker": "Assets\\Animaciones\\Scripts\\camara.cs",
+              "ToolTip": "C:\\Users\\Francisco\\Downloads\\Lost-Gamble\\Assets\\Animaciones\\Scripts\\camara.cs",
+              "RelativeToolTip": "Assets\\Animaciones\\Scripts\\camara.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T00:45:16.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimacionCorrer.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco\\Downloads\\Lost-Gamble\\Assets\\Animaciones\\Scripts\\AnimacionCorrer.cs",
+              "RelativeDocumentMoniker": "Assets\\Animaciones\\Scripts\\AnimacionCorrer.cs",
+              "ToolTip": "C:\\Users\\Francisco\\Downloads\\Lost-Gamble\\Assets\\Animaciones\\Scripts\\AnimacionCorrer.cs",
+              "RelativeToolTip": "Assets\\Animaciones\\Scripts\\AnimacionCorrer.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T00:45:10.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuPausa.cs",
+              "DocumentMoniker": "C:\\Users\\Francisco\\Downloads\\Lost-Gamble\\Assets\\MenuPausa.cs",
+              "RelativeDocumentMoniker": "Assets\\MenuPausa.cs",
+              "ToolTip": "C:\\Users\\Francisco\\Downloads\\Lost-Gamble\\Assets\\MenuPausa.cs",
+              "RelativeToolTip": "Assets\\MenuPausa.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T00:28:16.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
