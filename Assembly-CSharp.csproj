@@ -53,7 +53,7 @@
     <UnityVersion>2022.3.5f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -62,10 +62,13 @@
     <Compile Include="Assets\Scripts\Dado\ChangeMaterial.cs" />
     <Compile Include="Assets\Pasos.cs" />
     <Compile Include="Assets\Scripts\Objetos\Puerta\AbrirPuerta.cs" />
+    <Compile Include="Assets\Scrips\CardGame1\ImagesController.cs" />
     <Compile Include="Assets\Borracho\Borracho.cs" />
     <Compile Include="Assets\Lady Dados\Scripts\spritebillboard2.cs" />
     <Compile Include="Assets\Scripts\Ruleta\Ruleta.cs" />
     <Compile Include="Assets\Scripts\Player\Pintura.cs" />
+    <Compile Include="Assets\Scrips\RaceGame\PlayerWin.cs" />
+    <Compile Include="Assets\Scrips\CardGame1\CardGameManager.cs" />
     <Compile Include="Assets\activarboton.cs" />
     <Compile Include="Assets\Scripts\Npcs\Mesero.cs" />
     <Compile Include="Assets\Scripts\Dado\ClassDado.cs" />
@@ -74,10 +77,15 @@
     <Compile Include="Assets\Scripts\Salto\LogicaPies.cs" />
     <Compile Include="Assets\Scripts\Salto\logicaPersonaje1.cs" />
     <Compile Include="Assets\sonidos\Sound.cs" />
+    <Compile Include="Assets\Scrips\EventManager.cs" />
     <Compile Include="Assets\Scripts\Objetos\Alcohol\Sobrio.cs" />
     <Compile Include="Assets\Scripts\Player\Trucos.cs" />
     <Compile Include="Assets\Animaciones\Scripts\Movimiento.cs" />
+    <Compile Include="Assets\Scrips\CardGame1\CardGameEnding.cs" />
+    <Compile Include="Assets\Scrips\Exit.cs" />
+    <Compile Include="Assets\Scrips\RaceGame\RaceGameTrigguer.cs" />
     <Compile Include="Assets\Memotest\MemoTest.cs" />
+    <Compile Include="Assets\Scrips\CardGame1\CardGameTrigguer.cs" />
     <Compile Include="Assets\SpriteBillboarding\SpriteBillboard.cs" />
     <Compile Include="Assets\Scripts\Objetos\Puerta\Puerta.cs" />
     <Compile Include="Assets\Scripts\UI_PPT.cs" />
@@ -90,26 +98,33 @@
     <Compile Include="Assets\Scripts\Tricks\Kamikaze.cs" />
     <Compile Include="Assets\Scripts\Npcs\EnemigoDado.cs" />
     <Compile Include="Assets\NPCs\Bartender\Bartender.cs" />
+    <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\UI.cs" />
     <Compile Include="Assets\Scripts\Npcs\EnemigoPPT.cs" />
+    <Compile Include="Assets\Scrips\RaceGame\PlayerRacer.cs" />
     <Compile Include="Assets\Scripts\Objetos\Puerta\IInteractable.cs" />
     <Compile Include="Assets\Animaciones\Scripts\AnimationController.cs" />
     <Compile Include="Assets\Ruleta\ElegirRuleta.cs" />
     <Compile Include="Assets\Scripts\Dado\Dectector_Numeros.cs" />
     <Compile Include="Assets\MenuPausa.cs" />
     <Compile Include="Assets\sonidos\DiceDuelSoundManager.cs" />
+    <Compile Include="Assets\Scrips\ResetButtom.cs" />
     <Compile Include="Assets\sonidos\SoundMixerManager.cs" />
     <Compile Include="Assets\Scripts\Player\Inventario.cs" />
     <Compile Include="Assets\Scripts\CodigoMenu.cs" />
+    <Compile Include="Assets\Scrips\ContinueButtom.cs" />
+    <Compile Include="Assets\Scrips\CameraController.cs" />
     <Compile Include="Assets\Scripts\Salto\Salto.cs" />
     <Compile Include="Assets\Scripts\PiedraPapelTijera\PPT.cs" />
     <Compile Include="Assets\Lady Dados\Scripts\Spritedirectionalcontroller.cs" />
+    <Compile Include="Assets\Scrips\CardGame1\TrickController.cs" />
     <Compile Include="Assets\Scripts\Tricks\X2.cs" />
     <Compile Include="Assets\Scripts\Player\Moneda.cs" />
     <Compile Include="Assets\Scripts\Enemys\Barradeatencion.cs" />
     <Compile Include="Assets\Scripts\Player\Whisky.cs" />
     <Compile Include="Assets\Scripts\Npcs\ClassDialogo.cs" />
     <Compile Include="Assets\Animaciones\Scripts\camara.cs" />
+    <Compile Include="Assets\Scrips\RaceGame\RaceGameManager.cs" />
     <Compile Include="Assets\Animaciones\Scripts\AnimacionCorrer.cs" />
     <Compile Include="Assets\PickUp.cs" />
     <Compile Include="Assets\Scripts\Dado\Combate.cs" />
@@ -117,6 +132,7 @@
     <Compile Include="Assets\sonidos\SFXManager.cs" />
     <Compile Include="Assets\NPCs\Opera\Opera.cs" />
     <Compile Include="Assets\Animaciones\Scripts\Rotacion.cs" />
+    <Compile Include="Assets\Scrips\CardGame1\Cards.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
