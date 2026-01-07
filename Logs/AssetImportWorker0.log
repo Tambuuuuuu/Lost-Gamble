@@ -15,7 +15,7 @@ C:/Users/Usuario/Documents/GitHub/Lost-Gamble
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56625
+52913
 Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/Lost-Gamble
 C:/Users/Usuario/Documents/GitHub/Lost-Gamble
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Usuario/Documents/GitHub/Lost-Gamble
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5444] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 2822299041 [EditorId] 2822299041 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OS6ER4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7312] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 48630672 [EditorId] 48630672 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OS6ER4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5444] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 2822299041 [EditorId] 2822299041 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OS6ER4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7312] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 48630672 [EditorId] 48630672 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OS6ER4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005394 seconds.
-- Loaded All Assemblies, in  0.270 seconds
+Registered in 0.004511 seconds.
+- Loaded All Assemblies, in  0.246 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 183 ms
+Android Extension - Scanning For ADB Devices 201 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.439 seconds
-Domain Reload Profiling: 709ms
-	BeginReloadAssembly (73ms)
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 697ms
+	BeginReloadAssembly (63ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (117ms)
-		LoadAssemblies (72ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (62ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (112ms)
-				TypeCache.ScanAssembly (102ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (93ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (440ms)
+	FinalizeReload (452ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (391ms)
+		SetupLoadedEditorAssemblies (407ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (271ms)
+			InitializePlatformSupportModulesInManaged (287ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (76ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,59 +119,58 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Documents\GitHub\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Documents\GitHub\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.572 seconds
-Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.576 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.416 seconds
-Domain Reload Profiling: 988ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 998ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (25ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (405ms)
-		LoadAssemblies (220ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (217ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (234ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (207ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (417ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (208ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (423ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (293ms)
+		SetupLoadedEditorAssemblies (299ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (202ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (207ms)
 			ProcessInitializeOnLoadMethodAttributes (16ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3699 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 4157.
-Memory consumption went from 158.9 MB to 157.5 MB.
-Total: 3.619100 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.098700 ms MarkObjects: 3.032200 ms  DeleteObjects: 0.280500 ms)
+Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 4155.
+Memory consumption went from 158.5 MB to 157.2 MB.
+Total: 2.855400 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.099800 ms MarkObjects: 2.269700 ms  DeleteObjects: 0.284400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -180,55 +179,101 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 1029800.441058 seconds.
+  path: Assets/Scenes/TestScene.unity
+  artifactKey: Guid(2c2d0dd5c13a3174cbca9ccfbfbc68ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScene.unity using Guid(2c2d0dd5c13a3174cbca9ccfbfbc68ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801975ad6b181596c4082df11811382f') in 0.002361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.753785 seconds.
+  path: Assets/cube Fbx.fbx
+  artifactKey: Guid(3551f16f2a5f2384d8dba24ef3d094b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cube Fbx.fbx using Guid(3551f16f2a5f2384d8dba24ef3d094b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42bd01d2705a9340b323c3fbd3e5b37') in 0.153553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.511907 seconds.
+  path: Assets/arte
+  artifactKey: Guid(d99e925e8cb34e44492477feb107693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte using Guid(d99e925e8cb34e44492477feb107693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd68d3bc565afe55ecd6855a981ea9f') in 0.000398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062471 seconds.
+  path: Assets/arte/Barra rondas .png
+  artifactKey: Guid(748c35ce57e212a44a3705727979fdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/Barra rondas .png using Guid(748c35ce57e212a44a3705727979fdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76c94f1a3fdeefcd5c330289739c4df') in 0.041838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/arte/Piedra Seleccionado.png
+  artifactKey: Guid(da5d71d573e0ae040ae00b2e6a36ba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/Piedra Seleccionado.png using Guid(da5d71d573e0ae040ae00b2e6a36ba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1773bbe09c58c05ab862273f18233170') in 0.021471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/arte/Punto Atencion Lleno.png
+  artifactKey: Guid(9db2f9468fdef9a428e8b981d92c51b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/Punto Atencion Lleno.png using Guid(9db2f9468fdef9a428e8b981d92c51b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb4bde1b272589b3f4a298827de2dd7') in 0.020790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/arte/Piedra No seleccionado.png
+  artifactKey: Guid(03d84889481b80547a6f3192c2117493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/Piedra No seleccionado.png using Guid(03d84889481b80547a6f3192c2117493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81a0cf96405374c4230604c6616df89') in 0.022438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/arte/Tijera NO seleccionado.png
+  artifactKey: Guid(e7d9720d3572f7e4ab59f3783ee4e27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/Tijera NO seleccionado.png using Guid(e7d9720d3572f7e4ab59f3783ee4e27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efad3d107357de213aacc002477f7bd') in 0.019870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/arte/Tijera Seleccionado.png
+  artifactKey: Guid(791a683cdbdf4ab469745544428d8fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/Tijera Seleccionado.png using Guid(791a683cdbdf4ab469745544428d8fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ecd7dd103c2a17912277d0b0e11d9f') in 0.020199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/arte/Ronda Perdida.png
+  artifactKey: Guid(0a53a08389eb76546b7094fad265f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/Ronda Perdida.png using Guid(0a53a08389eb76546b7094fad265f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258030aa24ae0d3167af31ad1a6f88ea') in 0.020048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/arte/Punto Atencion Vacio.png
+  artifactKey: Guid(e4143141d84fda14c889b910e22eddb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/Punto Atencion Vacio.png using Guid(e4143141d84fda14c889b910e22eddb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75f1aaedec40a1300aac707f89d6ee2') in 0.020383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Documents\GitHub\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Documents\GitHub\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.489 seconds
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.569 seconds
-Domain Reload Profiling: 1056ms
-	BeginReloadAssembly (103ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (334ms)
-		LoadAssemblies (187ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (190ms)
-			TypeCache.Refresh (186ms)
-				TypeCache.ScanAssembly (179ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (569ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (271ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (189ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 4160.
-Memory consumption went from 142.9 MB to 141.6 MB.
-Total: 2.939300 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.144300 ms MarkObjects: 2.270700 ms  DeleteObjects: 0.247600 ms)
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (1.3 MB). Loaded Objects now: 4202.
+Memory consumption went from 87.0 MB to 85.7 MB.
+Total: 3.182300 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.630900 ms  DeleteObjects: 0.241800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -246,57 +291,47 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 936410.327278 seconds.
-  path: Assets/Scenes/Ruleta.unity
-  artifactKey: Guid(8c1d5fc55ef45ec49a3d66cb6c001250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Ruleta.unity using Guid(8c1d5fc55ef45ec49a3d66cb6c001250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f67713b538293814e010284c709c6ec') in 0.001533 seconds
+  Time since last request: 12.852986 seconds.
+  path: Assets/arte/LostGambleMainChara.fbx
+  artifactKey: Guid(1a209beaf57cdb9449f80f5be931be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/LostGambleMainChara.fbx using Guid(1a209beaf57cdb9449f80f5be931be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f9d6aab0e648d0ad510afc1bc6636e') in 0.034618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 174
+========================================================================
+Received Import Request.
+  Time since last request: 61.847025 seconds.
+  path: Assets/arte/LostGambleMainCharacterTextures
+  artifactKey: Guid(baa7f339a93881444aa04ea876877c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/LostGambleMainCharacterTextures using Guid(baa7f339a93881444aa04ea876877c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799f851a205e14749da0c1c58c9c1684') in 0.000543 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.503161 seconds.
-  path: Assets/Scenes/MenuNuevo.unity
-  artifactKey: Guid(3f161ad6535bdef4da20db3879fd94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MenuNuevo.unity using Guid(3f161ad6535bdef4da20db3879fd94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4662ab7d874a609688137515dca5e09') in 0.000391 seconds
+  Time since last request: 2.047932 seconds.
+  path: Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_BaseColor.jpg
+  artifactKey: Guid(468da4f6d20ca13458e90a8ce77b4f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_BaseColor.jpg using Guid(468da4f6d20ca13458e90a8ce77b4f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80f1ccaf2b49028ac834808c20d27ca') in 0.026932 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2.070185 seconds.
-  path: Assets/Scenes/Memotest.unity
-  artifactKey: Guid(e29826a0c22481a4eb5044547666ebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Memotest.unity using Guid(e29826a0c22481a4eb5044547666ebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1ad8d77b48bf9123a34844549d1d5c') in 0.000392 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Roughness.jpg
+  artifactKey: Guid(39dad37787277f64f89630c5155051a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Roughness.jpg using Guid(39dad37787277f64f89630c5155051a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d10321f03a4ee8dda3db4026cbbaa24') in 0.018740 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.247784 seconds.
-  path: Assets/Scenes/Fin.unity
-  artifactKey: Guid(9329109200baf884eb6c124e5973d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fin.unity using Guid(9329109200baf884eb6c124e5973d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1aece088b16a900f25c04ccd3b39470') in 0.000527 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Metallic.jpg
+  artifactKey: Guid(00ea1c17207f5c041bb055a0641ae549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Metallic.jpg using Guid(00ea1c17207f5c041bb055a0641ae549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee25accb865b8c29bbe03b97e3c1f78') in 0.017427 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.068710 seconds.
-  path: Assets/Scenes/Dados.unity
-  artifactKey: Guid(dc9200d13686f8d48b8bbff7faecb7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Dados.unity using Guid(dc9200d13686f8d48b8bbff7faecb7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23b72e9c945755044580514c27bcb7e') in 0.000391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.911965 seconds.
-  path: Assets/Scenes/Animaciones.unity
-  artifactKey: Guid(382d1b3fa76aa72449305477b468892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Animaciones.unity using Guid(382d1b3fa76aa72449305477b468892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb03fb1fe964d3ee1084a241c3e83f4') in 0.000418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.805394 seconds.
-  path: Assets/Scenes/Tutorial.unity
-  artifactKey: Guid(11dc0c243d61d664491cf438b3910cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tutorial.unity using Guid(11dc0c243d61d664491cf438b3910cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12d1cd21baac830e2a557ced5eebffc') in 0.000399 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

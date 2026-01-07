@@ -1,0 +1,1153 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 32621 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Usuario/Documents/GitHub/Lost-Gamble
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52913
+Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/Lost-Gamble
+C:/Users/Usuario/Documents/GitHub/Lost-Gamble
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8624] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 3385792727 [EditorId] 3385792727 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OS6ER4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8624] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 3385792727 [EditorId] 3385792727 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OS6ER4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 4.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Documents/GitHub/Lost-Gamble/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16311 MB
+    Driver:   32.0.13031.3015
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004553 seconds.
+- Loaded All Assemblies, in  0.228 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 198 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.421 seconds
+Domain Reload Profiling: 648ms
+	BeginReloadAssembly (62ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
+		LoadAssemblies (61ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (421ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (276ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Documents\GitHub\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Documents\GitHub\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.490 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.367 seconds
+Domain Reload Profiling: 856ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (175ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (367ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3699 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 4155.
+Memory consumption went from 158.5 MB to 157.2 MB.
+Total: 2.735700 ms (FindLiveObjects: 0.197300 ms CreateObjectMapping: 0.090500 ms MarkObjects: 2.069000 ms  DeleteObjects: 0.377800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (1.3 MB). Loaded Objects now: 4155.
+Memory consumption went from 86.7 MB to 85.4 MB.
+Total: 4.184200 ms (FindLiveObjects: 0.206900 ms CreateObjectMapping: 0.097300 ms MarkObjects: 3.612800 ms  DeleteObjects: 0.266100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1029897.914290 seconds.
+  path: Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Height.jpg
+  artifactKey: Guid(2bbbd092ec7bc894d9da45d3a1976890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Height.jpg using Guid(2bbbd092ec7bc894d9da45d3a1976890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8ff12043dc9e6b26837711ac7ed992') in 0.053108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Normal.jpg
+  artifactKey: Guid(cb21ccd5fc146934b950ede5e4340e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Normal.jpg using Guid(cb21ccd5fc146934b950ede5e4340e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a72ce512aa39d5abd4bae25cf25f755') in 0.018307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 68.386137 seconds.
+  path: Assets/Scripts/Player/magia-encantadora-dibujos-animadosestilo-pincel-magico-sobre-fondo-blanco_983420-137777-removebg-preview.png
+  artifactKey: Guid(3581832fbe060f7479d5a79f06a7c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/magia-encantadora-dibujos-animadosestilo-pincel-magico-sobre-fondo-blanco_983420-137777-removebg-preview.png using Guid(3581832fbe060f7479d5a79f06a7c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32a777dad57636f1890786aa6f2202f') in 0.039967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/arte/Imagenes/Fondos/menu de pausa.png
+  artifactKey: Guid(8dfed0ed5d94b534eadbe716f4ed2f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/Imagenes/Fondos/menu de pausa.png using Guid(8dfed0ed5d94b534eadbe716f4ed2f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1d014ca810c776c87f77f2ca50da5b') in 0.021572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.913435 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-7_comp_dir.png
+  artifactKey: Guid(17c0bf83e022e354ba8254a7ace119bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-7_comp_dir.png using Guid(17c0bf83e022e354ba8254a7ace119bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50a997a381dbdc660119d0e7efef7b1') in 0.022115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013391 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-6_comp_dir.png
+  artifactKey: Guid(5d3efd32b2eba9345a909e2a998f0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-6_comp_dir.png using Guid(5d3efd32b2eba9345a909e2a998f0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f507a0dc14d260c1c451de1f9edeb72') in 0.015613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009114 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-5_comp_dir.png
+  artifactKey: Guid(afc32623dc134e342901e714ac496f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-5_comp_dir.png using Guid(afc32623dc134e342901e714ac496f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dac7d4b4140ec930e4f8e427f1d8da') in 0.019564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.180371 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-4_comp_dir.png
+  artifactKey: Guid(abf683d87aba12f41a92b4d51b5b23f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-4_comp_dir.png using Guid(abf683d87aba12f41a92b4d51b5b23f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a18195bfd52dc8aa242429960f5d802') in 0.025039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(8b62753483be46e4bbc6f2d547468997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-2_comp_light.exr using Guid(8b62753483be46e4bbc6f2d547468997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f70cece277fcbaaff431937c1c426a1') in 0.041198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.786929 seconds.
+  path: Assets/Scripts/Player/Objetos nuevos/icono del X2.png
+  artifactKey: Guid(0961c5b2f202db245af6244f28ee9b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Objetos nuevos/icono del X2.png using Guid(0961c5b2f202db245af6244f28ee9b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ffaac8733e97bb847320a4184a8b17') in 0.024689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/ADG_Textures/Foam Textures/foam4/foam4_Diffuse.tif
+  artifactKey: Guid(d5c8151d0e0bcf046887fc78cecd1b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ADG_Textures/Foam Textures/foam4/foam4_Diffuse.tif using Guid(d5c8151d0e0bcf046887fc78cecd1b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a5521693fdcc8c0ac2143a3dcd9a85') in 0.021688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/ADG_Textures/Foam Textures/foam2/foam2_Normal.tga
+  artifactKey: Guid(36f10010ce768464587061dff0582d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ADG_Textures/Foam Textures/foam2/foam2_Normal.tga using Guid(36f10010ce768464587061dff0582d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c22b32c914daa56745959a24380addd') in 0.033911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tricks/Whisky/Armature_Wiskey_42.png
+  artifactKey: Guid(b2ee0e589b1c0e04289cc3b287efc065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/Armature_Wiskey_42.png using Guid(b2ee0e589b1c0e04289cc3b287efc065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fa5988a3d41283f571b0e961b0ec74') in 0.025714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_0.png
+  artifactKey: Guid(d78eaaadbbb4aac43b512b151f309ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_0.png using Guid(d78eaaadbbb4aac43b512b151f309ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d0d32b334127fc8073894daf83e08d') in 0.022558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/4/Armature_seleccionrojo_07.png
+  artifactKey: Guid(2056dd2b2f9deb54e948a8c87f58e3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/4/Armature_seleccionrojo_07.png using Guid(2056dd2b2f9deb54e948a8c87f58e3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3012927e019f75f48468ee7e31348ffe') in 0.022774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Stranger/Nuevo/Armature_idle_13.png
+  artifactKey: Guid(2de3d40a8214c314fb4bf5c3cd0d0bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stranger/Nuevo/Armature_idle_13.png using Guid(2de3d40a8214c314fb4bf5c3cd0d0bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656f455b4d73b0b4218aeee25f72f5e7') in 0.022778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/fallo3/Armature_seleccionrojo_07.png
+  artifactKey: Guid(db14824db74eb0345a8d91d7a177952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/fallo3/Armature_seleccionrojo_07.png using Guid(db14824db74eb0345a8d91d7a177952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb148fb36e1ddf79382d154b9d8e8c64') in 0.022488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Tricks/X2/V.Dados/Armature_animtion0_03.png
+  artifactKey: Guid(5d488e09572bc0145b652b0e7ce651ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/X2/V.Dados/Armature_animtion0_03.png using Guid(5d488e09572bc0145b652b0e7ce651ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b05b2b272e550bb1a426a3b6a60e310') in 0.021771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_12.png
+  artifactKey: Guid(255ae7957452a6a4593bba4692e7cea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_12.png using Guid(255ae7957452a6a4593bba4692e7cea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b4f33bc0d7b9eebe62628705932459') in 0.024153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tricks/X2/V.Dados/Armature_animtion0_00.png
+  artifactKey: Guid(e790798b9678364408aafd6212869349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/X2/V.Dados/Armature_animtion0_00.png using Guid(e790798b9678364408aafd6212869349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30805ca80c138e283f734fcc7f998306') in 0.022721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/5 de diamantes.png
+  artifactKey: Guid(0828b304069b1694284b7fe3ee643ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/5 de diamantes.png using Guid(0828b304069b1694284b7fe3ee643ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada026218509328ce3adaf5bc15aa7a0') in 0.023833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dialogo/Gemela Dados Dialogo/AmbasGemelas/1-AmbasGemelasDadoDialogo.png
+  artifactKey: Guid(96603b4957bab2e438ce2c8d2d57522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogo/Gemela Dados Dialogo/AmbasGemelas/1-AmbasGemelasDadoDialogo.png using Guid(96603b4957bab2e438ce2c8d2d57522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0d4058385c3c04be8860d0a7a0a8a6') in 0.023049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tricks/Pincel/Armature_animtion0_02.png
+  artifactKey: Guid(74d685e4e807ae041a6629ec2e43750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/Armature_animtion0_02.png using Guid(74d685e4e807ae041a6629ec2e43750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8b5be8fdaa0cc72602c471ae4c2fb1') in 0.021424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/1/Armature_seleccionrojo_6.png
+  artifactKey: Guid(dbe462b67e7ef8a47b0f07a208a6104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/1/Armature_seleccionrojo_6.png using Guid(dbe462b67e7ef8a47b0f07a208a6104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9894b698f5dd969086b5f5daf76c026b') in 0.024759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/X2/V.Ruleta/Armature_Ruleta_09.png
+  artifactKey: Guid(466b2060702fa914cb86855688df0351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/X2/V.Ruleta/Armature_Ruleta_09.png using Guid(466b2060702fa914cb86855688df0351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf771932902b71bb515dcedbf0cfe44') in 0.018733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/dado textures/cube texture_lambert1_Normal.png
+  artifactKey: Guid(a614f0937ba38f54081f7d319ce97d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/dado textures/cube texture_lambert1_Normal.png using Guid(a614f0937ba38f54081f7d319ce97d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e786923ab395b64b9b5a7de7e8003b49') in 0.017861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_1.png
+  artifactKey: Guid(0e1de669e94adb8469c87f846bfbd8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_1.png using Guid(0e1de669e94adb8469c87f846bfbd8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4af52742889d43bc001d7733047257f') in 0.023233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NPCs/Stranger/Armature_animtion0_17.png
+  artifactKey: Guid(3f79b261180b2084c88cfc248b95ef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Stranger/Armature_animtion0_17.png using Guid(3f79b261180b2084c88cfc248b95ef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811dd7eda21050eda580e3921092ce0f') in 0.021670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NPCs/AnimatedRandom/Armature_animtion0_03.png
+  artifactKey: Guid(c09e658d50e5c134880fc9c95baf0cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/AnimatedRandom/Armature_animtion0_03.png using Guid(c09e658d50e5c134880fc9c95baf0cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8b083da45db7b9c8dd515334cb81bd') in 0.021696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NPCs/AnimatedRandom/Armature_animtion0_00.png
+  artifactKey: Guid(d944f6dfdc4f7254cad5aa09a72677bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/AnimatedRandom/Armature_animtion0_00.png using Guid(d944f6dfdc4f7254cad5aa09a72677bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e83453ce03e380606f8e655573b4fde') in 0.021032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/dados textures/dado trucado/cube Fbx_lambert1_Normal.png
+  artifactKey: Guid(7c087a34027faeb47815704190ef456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/dados textures/dado trucado/cube Fbx_lambert1_Normal.png using Guid(7c087a34027faeb47815704190ef456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d89abadd00028798d06220af753902') in 0.018474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tricks/Whisky/V.Ruleta/Armature_ruleta_11.png
+  artifactKey: Guid(f590349b3558795438056ed8665de627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.Ruleta/Armature_ruleta_11.png using Guid(f590349b3558795438056ed8665de627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67643ddc2578c8ed609d4f02a23f73b') in 0.021538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tricks/Kamikaze/Nueva/Armature_caida_09.png
+  artifactKey: Guid(54b120a17681ccd47a0e466950a9491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Kamikaze/Nueva/Armature_caida_09.png using Guid(54b120a17681ccd47a0e466950a9491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d56aff09a8d01e5e3f5bd6eef1d74a') in 0.021086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_5.png
+  artifactKey: Guid(60db2f0aaffab23408dce83c7cf8105d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.PPT/Armature_PPT(extra)_5.png using Guid(60db2f0aaffab23408dce83c7cf8105d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f71f807718c76ea4e1dfb9b6a705ee2') in 0.020780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Stranger/Nuevo/Movimiento/Armature_movimiento(nomalpiensen)_06.png
+  artifactKey: Guid(e6e1db37e243f1c429865637adeceb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stranger/Nuevo/Movimiento/Armature_movimiento(nomalpiensen)_06.png using Guid(e6e1db37e243f1c429865637adeceb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd753388e7c6ac15ef311861b175cde4') in 0.019622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado (negro)/Armature_animacionGiroNormal_04.png
+  artifactKey: Guid(0a6fccee5a2082c4b8a3891c8db83ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado (negro)/Armature_animacionGiroNormal_04.png using Guid(0a6fccee5a2082c4b8a3891c8db83ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240f13c44011b50c368217773892e464') in 0.021937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tricks/Kamikaze/Armature_animtion0_10.png
+  artifactKey: Guid(f86696f9db3df784685f72138365ffa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Kamikaze/Armature_animtion0_10.png using Guid(f86696f9db3df784685f72138365ffa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e218bc6724c37e5f7ad23df18c02a01') in 0.022450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tricks/Contrato/Vieja/Armature_animtion0_02.png
+  artifactKey: Guid(df6bb0a20beeb6b4c82a416ce4b388b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Contrato/Vieja/Armature_animtion0_02.png using Guid(df6bb0a20beeb6b4c82a416ce4b388b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3c38a4113ce13d5ab8b9a2ffc1032d') in 0.021360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Memotest/Diamante_png.png
+  artifactKey: Guid(fbb47cadbfabd65449d63df8fdb73b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Memotest/Diamante_png.png using Guid(fbb47cadbfabd65449d63df8fdb73b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2da25b34532f20eff87fd2f458d6d3e') in 0.020963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tricks/X2/V.Ruleta/Armature_Ruleta_10.png
+  artifactKey: Guid(c11bb3f0affe32b48ab9ed073d54904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/X2/V.Ruleta/Armature_Ruleta_10.png using Guid(c11bb3f0affe32b48ab9ed073d54904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb0f02aff91b20ce470c987f11ed951') in 0.020246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Materials/ADG_Textures/Foam Textures/foam3/foam3_Normal.tga
+  artifactKey: Guid(7eaa0539081f347448e6ae580e9cdaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ADG_Textures/Foam Textures/foam3/foam3_Normal.tga using Guid(7eaa0539081f347448e6ae580e9cdaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69742169a22fec00206b34f9cf0c06c1') in 0.020495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tricks/Pincel/V_Ruleta/Armature_Ruleta_10.png
+  artifactKey: Guid(9e913d9622950d74d976a03afbb62fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_Ruleta/Armature_Ruleta_10.png using Guid(9e913d9622950d74d976a03afbb62fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e9ef5b5e61ff27ec277b7ad9da3edd') in 0.022140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Lady Dados/Gemelas/Armature_Idle_12.png
+  artifactKey: Guid(29cfef6668af739438271ff08e3e627f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lady Dados/Gemelas/Armature_Idle_12.png using Guid(29cfef6668af739438271ff08e3e627f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428791370e3ad4e2785c1940f2b481ef') in 0.022908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tricks/Kamikaze/Nueva/Armature_caida_14.png
+  artifactKey: Guid(60f468c21254a8349bc4482c639300c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Kamikaze/Nueva/Armature_caida_14.png using Guid(60f468c21254a8349bc4482c639300c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c604ce3e04f62c53c61fc9a7c55bac6e') in 0.023675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado (negro)/Armature_animacionGiroNormal_06.png
+  artifactKey: Guid(af03fcae859fb6642acd7cd38fe46ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado (negro)/Armature_animacionGiroNormal_06.png using Guid(af03fcae859fb6642acd7cd38fe46ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae745dc61f012e72baf7bad2244441e3') in 0.021560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tricks/Kamikaze/Nueva/Armature_caida_08.png
+  artifactKey: Guid(4864d7acb172a834c9912af18404188b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Kamikaze/Nueva/Armature_caida_08.png using Guid(4864d7acb172a834c9912af18404188b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29faa5f1939e8ef9625b7784258e299') in 0.027820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/dado textures/cube texture_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(bb7e88129a00f5149b67ecaf3a24c80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/dado textures/cube texture_lambert1_MetallicSmoothness.png using Guid(bb7e88129a00f5149b67ecaf3a24c80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcae738cb58e59a107620877163f667') in 0.017761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/Player/inventario.png
+  artifactKey: Guid(be6fe32e67f81f142a668a96cac5c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/inventario.png using Guid(be6fe32e67f81f142a668a96cac5c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135b74081fd6251b8aa1dc58864fe2cf') in 0.021083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Stranger/Nuevo/Armature_idle_10.png
+  artifactKey: Guid(1bf1bcdde8c24aa41b75d678e9ffee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stranger/Nuevo/Armature_idle_10.png using Guid(1bf1bcdde8c24aa41b75d678e9ffee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd38381e91deea4a6b4639ae2e41a6fe') in 0.022856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tricks/Kamikaze/Nueva/Armature_caida_12.png
+  artifactKey: Guid(e99d0e7c106687f4fb14ec3f3333c542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Kamikaze/Nueva/Armature_caida_12.png using Guid(e99d0e7c106687f4fb14ec3f3333c542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7551031413087dda38e3185cc54dd16c') in 0.023125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_21.png
+  artifactKey: Guid(5b3c44d7a9f9fea46bcab0a188ded75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_21.png using Guid(5b3c44d7a9f9fea46bcab0a188ded75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0631d3cae8025d3715dfee2d980aaa') in 0.021482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Stranger/StrangerDialogos/5Stranger Dialogo.png
+  artifactKey: Guid(5bd390b1ff411a64bbb3b63a4601fad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stranger/StrangerDialogos/5Stranger Dialogo.png using Guid(5bd390b1ff411a64bbb3b63a4601fad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3ab82018ed3ee4077643ac46b40535') in 0.023430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo/7/Armature_seleccionrojo_26.png
+  artifactKey: Guid(26b2c762dad8b62408473660c72699a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo/7/Armature_seleccionrojo_26.png using Guid(26b2c762dad8b62408473660c72699a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f369a15bd7cb0933db1c6cbaf5d5c16') in 0.021953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_21.png
+  artifactKey: Guid(4373b74d5ca1b3142a4dcbccee327a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_21.png using Guid(4373b74d5ca1b3142a4dcbccee327a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd416a8db4fd6f35b5c752a62a610af9f') in 0.023249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lady Dados/Dialogos/5GemelasDialogo.png
+  artifactKey: Guid(8e7dbde57476aae4496e3ed49fab3fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lady Dados/Dialogos/5GemelasDialogo.png using Guid(8e7dbde57476aae4496e3ed49fab3fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07ee7b378cc049c45abdf25dc5caf43') in 0.020739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(2dc6366e6894e7e4892b3f7959760f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr using Guid(2dc6366e6894e7e4892b3f7959760f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493eb00ec812a3109064c887e423e380') in 0.019049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Dialogo/Gemela Dados Dialogo/2Gemela/1-2ndGemelaDadoDialogo.png
+  artifactKey: Guid(f7d5ae1b272f2364795404f0e6a3402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogo/Gemela Dados Dialogo/2Gemela/1-2ndGemelaDadoDialogo.png using Guid(f7d5ae1b272f2364795404f0e6a3402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e898c35befc20c2425a163559129d1a2') in 0.021706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado (negro)/Armature_animacionGiroNormal_14.png
+  artifactKey: Guid(f17fedfe936eb7a4bb1d1c72325c4cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado (negro)/Armature_animacionGiroNormal_14.png using Guid(f17fedfe936eb7a4bb1d1c72325c4cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca11c117da7348cdef955b7bc18cc4c') in 0.022176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado (negro)/Armature_animacionGiroNormal_13.png
+  artifactKey: Guid(906adeec61b8dcd40b495ed01b58ce60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado (negro)/Armature_animacionGiroNormal_13.png using Guid(906adeec61b8dcd40b495ed01b58ce60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637dc8cc36caea220c80a32f1485bd88') in 0.021664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Kamikaze/Nueva/Armature_caida_13.png
+  artifactKey: Guid(f86cf55500f082043907ccc9b272390f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Kamikaze/Nueva/Armature_caida_13.png using Guid(f86cf55500f082043907ccc9b272390f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e208b2776f5e3ee95e009f1cbe5795a') in 0.021968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado (negro)/Armature_animacionGiroNormal_02.png
+  artifactKey: Guid(3029a6c019fb27f4991720d7dc68240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado (negro)/Armature_animacionGiroNormal_02.png using Guid(3029a6c019fb27f4991720d7dc68240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716483b0324d0c6768a406c2e23d18b2') in 0.023685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Kamikaze/Nueva/Armature_caida_07.png
+  artifactKey: Guid(7618a0d68adea554ebf0e4f498926168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Kamikaze/Nueva/Armature_caida_07.png using Guid(7618a0d68adea554ebf0e4f498926168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e88340e4d77d62364482f5ad06d3397') in 0.023421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/dados textures/dado trucado/cube Fbx_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(08e58c2a2dc73624ab2a9daed497e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/dados textures/dado trucado/cube Fbx_lambert1_MetallicSmoothness.png using Guid(08e58c2a2dc73624ab2a9daed497e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72522a3d957f91fbfbb657054f78846e') in 0.018953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo/7/Armature_seleccionrojo_25.png
+  artifactKey: Guid(51626de95abee1b48ab6232070cdc0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo/7/Armature_seleccionrojo_25.png using Guid(51626de95abee1b48ab6232070cdc0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a8ebec3d42f1ced1060a7a1a389725') in 0.021799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_15.png
+  artifactKey: Guid(d0b75d87bc16ee74e83e544d8aba2e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_15.png using Guid(d0b75d87bc16ee74e83e544d8aba2e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be7b43427498f1e4421077c362f5a29') in 0.021986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NPCs/Stranger/Armature_animtion0_00.png
+  artifactKey: Guid(b45ff9cce17348949af79f9d374a2f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Stranger/Armature_animtion0_00.png using Guid(b45ff9cce17348949af79f9d374a2f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856851712c34c93d274d9e578c8f29b0') in 0.021045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_03.png
+  artifactKey: Guid(65d36a8be5bc743438e506bc19a5b27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_03.png using Guid(65d36a8be5bc743438e506bc19a5b27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec2308e57f1057a0edd441cca44cd15') in 0.024268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_04.png
+  artifactKey: Guid(902f0711e8bc8f042a6eb0adc8878488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_04.png using Guid(902f0711e8bc8f042a6eb0adc8878488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3cc94477538fff3050d2ecb9ca39d3') in 0.022632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion verde(trucado)/3/Armature_seleccionVerde_00.png
+  artifactKey: Guid(c2a7797c851ea6e4bbcaaf35c815fa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion verde(trucado)/3/Armature_seleccionVerde_00.png using Guid(c2a7797c851ea6e4bbcaaf35c815fa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15adc8c01f541e51531db97d40ec70b0') in 0.020997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Stranger/Nuevo/Armature_idle_11.png
+  artifactKey: Guid(fd56c3b65dcecc44e8c9ca002898e796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stranger/Nuevo/Armature_idle_11.png using Guid(fd56c3b65dcecc44e8c9ca002898e796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d326cd7e44f5523542de10722a12dfc') in 0.021059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion verde(trucado)/2/Armature_seleccionVerde_00.png
+  artifactKey: Guid(d4b28f1dd9e50a44780fe28972c9cb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion verde(trucado)/2/Armature_seleccionVerde_00.png using Guid(d4b28f1dd9e50a44780fe28972c9cb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f78bada647f3719d6ab59aae62c56a') in 0.022879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Kamikaze/Nueva/Armature_caida_11.png
+  artifactKey: Guid(653bc60d28e8cd040b37d310027d09b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Kamikaze/Nueva/Armature_caida_11.png using Guid(653bc60d28e8cd040b37d310027d09b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0175bcd96aa64a2933aafa7945d8bee') in 0.021027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_12.png
+  artifactKey: Guid(499a84c3f0866b64eb682573a3935975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_12.png using Guid(499a84c3f0866b64eb682573a3935975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474df801045bdaa2b2e292220fc31df8') in 0.021441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Materials/ADG_Textures/Foam Textures/foam4/foam4_Normal.tga
+  artifactKey: Guid(cf98c510542f6ea459cf1be46b46d4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ADG_Textures/Foam Textures/foam4/foam4_Normal.tga using Guid(cf98c510542f6ea459cf1be46b46d4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4209862df2dd3bef6ea8bfdbfcdcfa6') in 0.020006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Stranger/Nuevo/Armature_idle_14.png
+  artifactKey: Guid(6851785b7c5f9dd44aba8a25a4b51640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stranger/Nuevo/Armature_idle_14.png using Guid(6851785b7c5f9dd44aba8a25a4b51640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb2313d49baff6ed6da99a996ac83d9') in 0.021521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/ADG_Textures/Foam Textures/foam3/foam3_Height.tga
+  artifactKey: Guid(5fbcffe9c2077f04186883cb39275fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ADG_Textures/Foam Textures/foam3/foam3_Height.tga using Guid(5fbcffe9c2077f04186883cb39275fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48efa2395eac2dae6d75b588e6ae74c5') in 0.019778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/5/Armature_seleccionrojo_07.png
+  artifactKey: Guid(653710fa85cdf834aa1b7d6783b5a5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/5/Armature_seleccionrojo_07.png using Guid(653710fa85cdf834aa1b7d6783b5a5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a062f61969be665d16b952c59fb88a') in 0.023492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dialogos/1stGemelaDialogo/1-1stGemelaDadoDialogo.png
+  artifactKey: Guid(c87c3409f0fd34b4cbb17180befdcda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogos/1stGemelaDialogo/1-1stGemelaDadoDialogo.png using Guid(c87c3409f0fd34b4cbb17180befdcda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d04b69a5bf656eddad7fbe9ed563eb9') in 0.021311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_13.png
+  artifactKey: Guid(3417c2dd6420d874d9f5224d804b3879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_13.png using Guid(3417c2dd6420d874d9f5224d804b3879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dedcfd4a977ee3c27dd59b19d0b275') in 0.022840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tricks/Kamikaze/Armature_animtion0_00.png
+  artifactKey: Guid(c7e68216b672c534bb84d7e4264a1d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Kamikaze/Armature_animtion0_00.png using Guid(c7e68216b672c534bb84d7e4264a1d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46676979941aa1e8271373b95e3ebfb6') in 0.023212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Stranger/Nuevo/Movimiento/Armature_movimiento(nomalpiensen)_05.png
+  artifactKey: Guid(2cfde1bf3506730439f1f778ccd30be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stranger/Nuevo/Movimiento/Armature_movimiento(nomalpiensen)_05.png using Guid(2cfde1bf3506730439f1f778ccd30be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ba5704bdab2810d3260b0f1809b3c9') in 0.020970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tricks/Whisky/V.Ruleta/Armature_ruleta_10.png
+  artifactKey: Guid(4004525ea4250004f9b1d891a72716a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.Ruleta/Armature_ruleta_10.png using Guid(4004525ea4250004f9b1d891a72716a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aad126f5b8fb9e0fe23ff57b2fc0f40') in 0.020630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tricks/Kamikaze/Nueva/Armature_caida_15.png
+  artifactKey: Guid(613d0189943d2814fba93a5ac9338aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Kamikaze/Nueva/Armature_caida_15.png using Guid(613d0189943d2814fba93a5ac9338aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af34c2c9d0ab1920175b95d604509e6c') in 0.022877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Lady Dados/Dialogos/1GemelasDialogo.png
+  artifactKey: Guid(1fad565731824954dad1d27526b75bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lady Dados/Dialogos/1GemelasDialogo.png using Guid(1fad565731824954dad1d27526b75bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981f22e6343feccba430f6f19f7a7258') in 0.021838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/dado textures/cube texture_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(69e422f898250454498b047186bc4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/dado textures/cube texture_lambert1_AlbedoTransparency.png using Guid(69e422f898250454498b047186bc4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e03602ea5ab74fe484a6447641c0d7') in 0.017901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tricks/Whisky/Armature_Wiskey_39.png
+  artifactKey: Guid(513db81353dad2044ad5bcc7fbee4b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/Armature_Wiskey_39.png using Guid(513db81353dad2044ad5bcc7fbee4b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6379498c7b67b50aa78a63bcb671eaa9') in 0.021957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_14.png
+  artifactKey: Guid(4b64ee34dd30c8845b1b274e78a1ea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_14.png using Guid(4b64ee34dd30c8845b1b274e78a1ea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8b980ef9b8f13e4c5b7d690b664561') in 0.022462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/dados textures/dado trucado/cube Fbx_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(6af9765c24538ad47b2c227328ed5a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/dados textures/dado trucado/cube Fbx_lambert1_AlbedoTransparency.png using Guid(6af9765c24538ad47b2c227328ed5a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e692b75824e53afe926d816ccb5f04') in 0.018065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/ADG_Textures/Foam Textures/foam2/foam2_Opacity.tga
+  artifactKey: Guid(054dd1c23a7e11e4090e24b6d47a1377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ADG_Textures/Foam Textures/foam2/foam2_Opacity.tga using Guid(054dd1c23a7e11e4090e24b6d47a1377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16136de4c21618e9efd20fae8a766eeb') in 0.018648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tricks/Whisky/Armature_Wiskey_41.png
+  artifactKey: Guid(2d1f0228d30415c4d86bcd7668d6572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/Armature_Wiskey_41.png using Guid(2d1f0228d30415c4d86bcd7668d6572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02210906a15aa44dfcf3f2be1079d60b') in 0.021066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_06.png
+  artifactKey: Guid(8ed0c2432d29dc14b8a41b3a268b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_06.png using Guid(8ed0c2432d29dc14b8a41b3a268b7f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9aa23f72b468ac282a51309ba75b7e') in 0.021797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NPCs/Stranger/Armature_animtion0_18.png
+  artifactKey: Guid(8fd7c6aa6499e09479d2793c6887469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Stranger/Armature_animtion0_18.png using Guid(8fd7c6aa6499e09479d2793c6887469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331329d91b5abd9ab2c6a6b052970e5d') in 0.022039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_05.png
+  artifactKey: Guid(ec44f82227a8bdb4cbcf3754a519c38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_05.png using Guid(ec44f82227a8bdb4cbcf3754a519c38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0eaaa068d0f537f0ccb516bb156158') in 0.023685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo/3/Armature_seleccionrojo_6.png
+  artifactKey: Guid(474d20f224f1e354eafb45bacb3ed5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo/3/Armature_seleccionrojo_6.png using Guid(474d20f224f1e354eafb45bacb3ed5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fc4745b0e7980eb0a9f755281d2f82') in 0.023149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_05.png
+  artifactKey: Guid(ddf81f1e6b2e91640af26be45cd5beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucado(verde)/Armature_animacionGiroNormal_05.png using Guid(ddf81f1e6b2e91640af26be45cd5beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ad504594b7916ea800f481f625d1ef') in 0.021622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tricks/Whisky/Armature_Wiskey_44.png
+  artifactKey: Guid(66cd4dbc217692e448b9a6496d26b6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/Armature_Wiskey_44.png using Guid(66cd4dbc217692e448b9a6496d26b6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c511fe508474214d45c9e39a0e089ea5') in 0.018788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tricks/Contrato/Armature_animtion0_10.png
+  artifactKey: Guid(edeaa8a512ae3bf40b3038207e323b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Contrato/Armature_animtion0_10.png using Guid(edeaa8a512ae3bf40b3038207e323b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f5966a1cb912a26536b59a136f45b4') in 0.022201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tricks/Pincel/V_Ruleta/Armature_Ruleta_09.png
+  artifactKey: Guid(7e6e814e4fbdc0d48be65241a6a236d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Pincel/V_Ruleta/Armature_Ruleta_09.png using Guid(7e6e814e4fbdc0d48be65241a6a236d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7eb9c0cdc81fea6977936cd5518829') in 0.020471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Images/5 de picas.png
+  artifactKey: Guid(fea7761242de3914b9f0f8dda1f568ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/5 de picas.png using Guid(fea7761242de3914b9f0f8dda1f568ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a578ecd1d5aba07289d1fbbc5b358db') in 0.022202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_02.png
+  artifactKey: Guid(98d2aaf0136f5aa45ba58ea2435ae28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/giro trucada (rojo)/Armature_animacionGiroNormal_02.png using Guid(98d2aaf0136f5aa45ba58ea2435ae28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1822c09fc5cb9a6689c694e583bd79ac') in 0.022550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 40.808544 seconds.
+  path: Assets/Scripts/Player/Objetos nuevos/icono de la bolsa de dinero 1.png
+  artifactKey: Guid(848c3eca596d471459a7321a3e689105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Objetos nuevos/icono de la bolsa de dinero 1.png using Guid(848c3eca596d471459a7321a3e689105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2484a356755adcad4c2f625f80cb3c5') in 0.023282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Scripts/Player/Objetos nuevos/Calavera_animada_png.png
+  artifactKey: Guid(b591f0c3b06cb2d40a09db7bf26f5eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Objetos nuevos/Calavera_animada_png.png using Guid(b591f0c3b06cb2d40a09db7bf26f5eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21da5a82d71eb98a37f21220937719dc') in 0.021990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tricks/Whisky/Armature_Wiskey_32.png
+  artifactKey: Guid(3111bff708d234948b8d17b93b5939dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/Armature_Wiskey_32.png using Guid(3111bff708d234948b8d17b93b5939dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb452fff095a3faae6a7ce13c55ca3e0') in 0.022183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/ADG_Textures/Foam Textures/foam2/foam2_Diffuse.tif
+  artifactKey: Guid(6db914f06cbc33f45845d00e9de07bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ADG_Textures/Foam Textures/foam2/foam2_Diffuse.tif using Guid(6db914f06cbc33f45845d00e9de07bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f331c063fc6b8a9e31e3755b2d6e23') in 0.022227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Lady Dados/1LadyDado/1LadyDado/lanzardado/Armature_lanzardado_15.png
+  artifactKey: Guid(a80f9988fbb2c0047998039697fab7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lady Dados/1LadyDado/1LadyDado/lanzardado/Armature_lanzardado_15.png using Guid(a80f9988fbb2c0047998039697fab7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dba473ff1944ed16efd09c58e137d8') in 0.022536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Contrato/Armature_animtion0_20.png
+  artifactKey: Guid(7a8bab84cfb2d8e4c89702873eec9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Contrato/Armature_animtion0_20.png using Guid(7a8bab84cfb2d8e4c89702873eec9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2a1dbcf2724861b387a3969925122a') in 0.021714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/arte/Imagenes/9cf4f97661ac5bcdf87628ce58f895a47dd14ea7.jpg
+  artifactKey: Guid(6df511465e425024e970b02476bdc686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/Imagenes/9cf4f97661ac5bcdf87628ce58f895a47dd14ea7.jpg using Guid(6df511465e425024e970b02476bdc686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0b521f6864200dc200b256d2af1db0') in 0.028651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/Player/Objetos nuevos/icono del pincel.png
+  artifactKey: Guid(a068fcdd06c63e64180f4a50e9445d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Objetos nuevos/icono del pincel.png using Guid(a068fcdd06c63e64180f4a50e9445d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e06772d609e7c8efab7a591c765c6e7') in 0.021631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tricks/Whisky/V.Dado/Armature_lanzardado_17.png
+  artifactKey: Guid(1c41da40ea589c048a503881426da587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.Dado/Armature_lanzardado_17.png using Guid(1c41da40ea589c048a503881426da587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8271031c7328244ac65dfb474c2526b6') in 0.022365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/fallo3/Armature_seleccionrojo_23.png
+  artifactKey: Guid(454baf50e6e8a9b4898e437988c08d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/fallo3/Armature_seleccionrojo_23.png using Guid(454baf50e6e8a9b4898e437988c08d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aec0bec8599e5a8b2c9a8b7e6e24215') in 0.025794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/arte/Imagenes/713ba7af0e4f03fe5c3d9a54e4d9ffe8.jpg
+  artifactKey: Guid(1373e7316ade684409f610e53ec426c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arte/Imagenes/713ba7af0e4f03fe5c3d9a54e4d9ffe8.jpg using Guid(1373e7316ade684409f610e53ec426c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a685387642fc9b735d919cbbda01263c') in 0.023852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tricks/Whisky/Armature_Wiskey_35.png
+  artifactKey: Guid(b1e80057357f70348a9b225d30e82f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/Armature_Wiskey_35.png using Guid(b1e80057357f70348a9b225d30e82f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd996f0342df11fec123c71b790bbddd') in 0.022357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/5/Armature_seleccionrojo_02.png
+  artifactKey: Guid(d6a927bc63be4244ca897ab4997abaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/5/Armature_seleccionrojo_02.png using Guid(d6a927bc63be4244ca897ab4997abaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76abe0114f572fd1335c94541964e9ad') in 0.022059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Tricks/Whisky/V.Dado/Armature_lanzardado_20.png
+  artifactKey: Guid(19d49d3c7858efb41aa83cd9122be15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tricks/Whisky/V.Dado/Armature_lanzardado_20.png using Guid(19d49d3c7858efb41aa83cd9122be15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e66ac5767dd425e76c4671244501aab') in 0.021996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/fallo3/Armature_seleccionrojo_25.png
+  artifactKey: Guid(ffea19a0f5182b64b9fbe595895c223d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/fallo3/Armature_seleccionrojo_25.png using Guid(ffea19a0f5182b64b9fbe595895c223d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbe6e19098372bf8bc8ab6db04b0c9e') in 0.022336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/fallo3/Armature_seleccionrojo_02.png
+  artifactKey: Guid(df3de1ff81967e24f8a0840b97a6deb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/fallo3/Armature_seleccionrojo_02.png using Guid(df3de1ff81967e24f8a0840b97a6deb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf770ffac5c21a7aedd58c742818da3') in 0.021869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion negro/5/Armature_seleccionNegro_00.png
+  artifactKey: Guid(10d0c4028d122314eb7188285e0f997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion negro/5/Armature_seleccionNegro_00.png using Guid(10d0c4028d122314eb7188285e0f997a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8868618335f0046831e71f8e8bb5627f') in 0.021899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/fallo1/Armature_seleccionrojo_1.png
+  artifactKey: Guid(30ca53031091d17458843a8300b3f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ruleta/Diseño/Animacion/Animacion Ruleta juego (final)/seleccion rojo(trucado)/fallo1/Armature_seleccionrojo_1.png using Guid(30ca53031091d17458843a8300b3f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9b49287251f567ae27f44ce3635205') in 0.023846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

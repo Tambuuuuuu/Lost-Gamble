@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6044,6 +6044,91 @@ RectTransform:
   m_AnchoredPosition: {x: 1.0000305, y: -0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1786404730
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.16054049
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.16054049
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.16054049
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.3843966
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.7725713
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.02019506
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9997961
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 177.686
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4003092854873392710, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0080555
+      objectReference: {fileID: 0}
+    - target: {fileID: -4003092854873392710, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0080555
+      objectReference: {fileID: 0}
+    - target: {fileID: -4003092854873392710, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0080555
+      objectReference: {fileID: 0}
+    - target: {fileID: -425565630206218756, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f907b6539bb6cc4591a40e9c8dba58c, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
+      propertyPath: m_Name
+      value: LostGambleMainChara
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1a209beaf57cdb9449f80f5be931be7c, type: 3}
 --- !u!1 &1813068092
 GameObject:
   m_ObjectHideFlags: 0
@@ -6932,3 +7017,4 @@ SceneRoots:
   - {fileID: 1662140157}
   - {fileID: 1839717565}
   - {fileID: 1856307675}
+  - {fileID: 1786404730}
