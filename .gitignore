@@ -9,12 +9,10 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 [Mm]emoryCaptures/
-
-# Recordings (Unity Recorder)
 [Rr]ecordings/
 
 # =========================
-# OS / Editor files
+# OS files
 # =========================
 .DS_Store
 Thumbs.db
@@ -37,9 +35,6 @@ desktop.ini
 *.pidb
 *.booproj
 *.svd
-
-# Rider
-.idea/
 
 # =========================
 # Unity cache & meta
@@ -66,10 +61,10 @@ sysinfo.txt
 *.unitypackage
 
 # =========================
-# Addressables / Streaming
+# Addressables
 # =========================
-StreamingAssets/aa.meta
 StreamingAssets/aa/
+StreamingAssets/aa.meta
 
 # =========================
 # Shader & GI cache
@@ -81,15 +76,3 @@ GI/
 # Logs
 # =========================
 *.log
-
-# =========================
-# User-specific settings
-# =========================
-*.user
-*.prefs
-
-# =========================
-# Packages lock (opcional)
-# =========================
-# Descomenta si NO quieres versionar el lock de paquetes
-# Packages/packages-lock.json
