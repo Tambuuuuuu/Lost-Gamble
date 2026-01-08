@@ -80,3 +80,5 @@ GI/
 # Shader compiler logs
 Log/ShaderCompilers/
 
+/Logs
+/Logs
