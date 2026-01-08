@@ -76,3 +76,7 @@ GI/
 # Logs
 # =========================
 *.log
+
+# Shader compiler logs
+Log/ShaderCompilers/
+

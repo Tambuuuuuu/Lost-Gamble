@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 32621 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16319 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Usuario/Documents/GitHub/Lost-Gamble
+C:/Users/Reimondash/Desktop/Universidad/Lost-Gamble
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52913
-Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/Lost-Gamble
-C:/Users/Usuario/Documents/GitHub/Lost-Gamble
+5421
+Successfully changed project path to: C:/Users/Reimondash/Desktop/Universidad/Lost-Gamble
+C:/Users/Reimondash/Desktop/Universidad/Lost-Gamble
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,67 @@ C:/Users/Usuario/Documents/GitHub/Lost-Gamble
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7312] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 48630672 [EditorId] 48630672 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OS6ER4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [35800] Host "[IP] 169.254.123.19 [Port] 0 [Flags] 2 [Guid] 1351615390 [EditorId] 1351615390 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2QF7B7G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7312] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 48630672 [EditorId] 48630672 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OS6ER4E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [35800] Host "[IP] 169.254.123.19 [Port] 0 [Flags] 2 [Guid] 1351615390 [EditorId] 1351615390 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2QF7B7G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 23.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Usuario/Documents/GitHub/Lost-Gamble/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Reimondash/Desktop/Universidad/Lost-Gamble/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
-    Vendor:   ATI
-    VRAM:     16311 MB
-    Driver:   32.0.13031.3015
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4004 MB
+    Driver:   32.0.15.7602
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004511 seconds.
-- Loaded All Assemblies, in  0.246 seconds
+Registered in 0.013987 seconds.
+- Loaded All Assemblies, in  0.539 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 201 ms
+Android Extension - Scanning For ADB Devices 344 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.452 seconds
-Domain Reload Profiling: 697ms
-	BeginReloadAssembly (63ms)
+- Finished resetting the current domain, in  0.720 seconds
+Domain Reload Profiling: 1256ms
+	BeginReloadAssembly (170ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (107ms)
-		LoadAssemblies (62ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (166ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (103ms)
-			TypeCache.Refresh (102ms)
-				TypeCache.ScanAssembly (93ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (201ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (452ms)
+	FinalizeReload (720ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (407ms)
+		SetupLoadedEditorAssemblies (655ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (287ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (474ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (75ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,58 +117,57 @@ Domain Reload Profiling: 697ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Documents\GitHub\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Documents\GitHub\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.576 seconds
-Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Reimondash\Desktop\Universidad\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Reimondash\Desktop\Universidad\Lost-Gamble\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.005 seconds
+Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.423 seconds
-Domain Reload Profiling: 998ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.748 seconds
+Domain Reload Profiling: 1741ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (404ms)
-		LoadAssemblies (217ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (741ms)
+		LoadAssemblies (459ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (219ms)
-				TypeCache.ScanAssembly (208ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (423ms)
+		AnalyzeDomain (351ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (311ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (748ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (299ms)
+		SetupLoadedEditorAssemblies (482ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (207ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3699 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 51 unused Assets / (1.3 MB). Loaded Objects now: 4155.
-Memory consumption went from 158.5 MB to 157.2 MB.
-Total: 2.855400 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.099800 ms MarkObjects: 2.269700 ms  DeleteObjects: 0.284400 ms)
+Memory consumption went from 158.1 MB to 156.8 MB.
+Total: 5.174000 ms (FindLiveObjects: 0.430600 ms CreateObjectMapping: 0.966500 ms MarkObjects: 3.294600 ms  DeleteObjects: 0.480800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -180,105 +179,24 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1029800.441058 seconds.
-  path: Assets/Scenes/TestScene.unity
-  artifactKey: Guid(2c2d0dd5c13a3174cbca9ccfbfbc68ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestScene.unity using Guid(2c2d0dd5c13a3174cbca9ccfbfbc68ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801975ad6b181596c4082df11811382f') in 0.002361 seconds
+  Time since last request: 206874.671092 seconds.
+  path: Assets/X Bot.fbx
+  artifactKey: Guid(fc6e6fe4e75e4ff4fbca1c3ed81e6cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/X Bot.fbx using Guid(fc6e6fe4e75e4ff4fbca1c3ed81e6cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e09cbe8edb1c71766e70604041fcc5') in 0.452678 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 18.753785 seconds.
-  path: Assets/cube Fbx.fbx
-  artifactKey: Guid(3551f16f2a5f2384d8dba24ef3d094b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cube Fbx.fbx using Guid(3551f16f2a5f2384d8dba24ef3d094b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42bd01d2705a9340b323c3fbd3e5b37') in 0.153553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 1.511907 seconds.
-  path: Assets/arte
-  artifactKey: Guid(d99e925e8cb34e44492477feb107693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte using Guid(d99e925e8cb34e44492477feb107693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd68d3bc565afe55ecd6855a981ea9f') in 0.000398 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.062471 seconds.
-  path: Assets/arte/Barra rondas .png
-  artifactKey: Guid(748c35ce57e212a44a3705727979fdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/Barra rondas .png using Guid(748c35ce57e212a44a3705727979fdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76c94f1a3fdeefcd5c330289739c4df') in 0.041838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/arte/Piedra Seleccionado.png
-  artifactKey: Guid(da5d71d573e0ae040ae00b2e6a36ba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/Piedra Seleccionado.png using Guid(da5d71d573e0ae040ae00b2e6a36ba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1773bbe09c58c05ab862273f18233170') in 0.021471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/arte/Punto Atencion Lleno.png
-  artifactKey: Guid(9db2f9468fdef9a428e8b981d92c51b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/Punto Atencion Lleno.png using Guid(9db2f9468fdef9a428e8b981d92c51b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb4bde1b272589b3f4a298827de2dd7') in 0.020790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/arte/Piedra No seleccionado.png
-  artifactKey: Guid(03d84889481b80547a6f3192c2117493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/Piedra No seleccionado.png using Guid(03d84889481b80547a6f3192c2117493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81a0cf96405374c4230604c6616df89') in 0.022438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/arte/Tijera NO seleccionado.png
-  artifactKey: Guid(e7d9720d3572f7e4ab59f3783ee4e27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/Tijera NO seleccionado.png using Guid(e7d9720d3572f7e4ab59f3783ee4e27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efad3d107357de213aacc002477f7bd') in 0.019870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/arte/Tijera Seleccionado.png
-  artifactKey: Guid(791a683cdbdf4ab469745544428d8fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/Tijera Seleccionado.png using Guid(791a683cdbdf4ab469745544428d8fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ecd7dd103c2a17912277d0b0e11d9f') in 0.020199 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/arte/Ronda Perdida.png
-  artifactKey: Guid(0a53a08389eb76546b7094fad265f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/Ronda Perdida.png using Guid(0a53a08389eb76546b7094fad265f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258030aa24ae0d3167af31ad1a6f88ea') in 0.020048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/arte/Punto Atencion Vacio.png
-  artifactKey: Guid(e4143141d84fda14c889b910e22eddb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/Punto Atencion Vacio.png using Guid(e4143141d84fda14c889b910e22eddb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75f1aaedec40a1300aac707f89d6ee2') in 0.020383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 147
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (1.3 MB). Loaded Objects now: 4202.
-Memory consumption went from 87.0 MB to 85.7 MB.
-Total: 3.182300 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.630900 ms  DeleteObjects: 0.241800 ms)
+Unloading 14 unused Assets / (1.3 MB). Loaded Objects now: 4167.
+Memory consumption went from 87.9 MB to 86.6 MB.
+Total: 7.398400 ms (FindLiveObjects: 0.313200 ms CreateObjectMapping: 2.723500 ms MarkObjects: 4.071500 ms  DeleteObjects: 0.289300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -289,49 +207,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 12.852986 seconds.
-  path: Assets/arte/LostGambleMainChara.fbx
-  artifactKey: Guid(1a209beaf57cdb9449f80f5be931be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/LostGambleMainChara.fbx using Guid(1a209beaf57cdb9449f80f5be931be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f9d6aab0e648d0ad510afc1bc6636e') in 0.034618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 174
-========================================================================
-Received Import Request.
-  Time since last request: 61.847025 seconds.
-  path: Assets/arte/LostGambleMainCharacterTextures
-  artifactKey: Guid(baa7f339a93881444aa04ea876877c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/LostGambleMainCharacterTextures using Guid(baa7f339a93881444aa04ea876877c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799f851a205e14749da0c1c58c9c1684') in 0.000543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.047932 seconds.
-  path: Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_BaseColor.jpg
-  artifactKey: Guid(468da4f6d20ca13458e90a8ce77b4f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_BaseColor.jpg using Guid(468da4f6d20ca13458e90a8ce77b4f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80f1ccaf2b49028ac834808c20d27ca') in 0.026932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Roughness.jpg
-  artifactKey: Guid(39dad37787277f64f89630c5155051a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Roughness.jpg using Guid(39dad37787277f64f89630c5155051a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d10321f03a4ee8dda3db4026cbbaa24') in 0.018740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Metallic.jpg
-  artifactKey: Guid(00ea1c17207f5c041bb055a0641ae549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/arte/LostGambleMainCharacterTextures/LostGambleMainChara_lambert1_Metallic.jpg using Guid(00ea1c17207f5c041bb055a0641ae549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee25accb865b8c29bbe03b97e3c1f78') in 0.017427 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
