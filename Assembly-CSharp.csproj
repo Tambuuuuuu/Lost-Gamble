@@ -212,6 +212,7 @@
      <Folder Include="Assets\Ruleta\Diseño\Animacion\Animacion Ruleta juego (final)\seleccion verde(trucado)\3" />
      <None Include="Library\PackageCache\com.unity.probuilder@5.1.1\Content\Shader\VertexPicker.shader" />
      <Folder Include="Assets\Scripts\Player" />
+     <Folder Include="Assets\Fonts" />
      <Folder Include="Assets\Ruleta\Diseño\Animacion\Animacion Ruleta juego (final)\seleccion verde(trucado)\fallo3" />
      <Folder Include="Assets\arte\barra atencion" />
      <Folder Include="Assets\Tricks\Contrato" />
@@ -270,6 +271,7 @@
      <Folder Include="Library\PackageCache\com.unity.timeline@1.7.5" />
      <None Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Shaders\Builtins\DiskKernels.hlsl" />
      <Folder Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Textures\BlueNoise256px" />
+     <Folder Include="Assets\sonidos\StartMenu" />
      <Folder Include="Assets\Ruleta\Diseño\Animacion\Animacion Ruleta juego (final)\giro trucada (rojo)" />
      <Folder Include="Library\PackageCache\com.unity.modules.cloth@1.0.0" />
      <None Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Shaders\API\D3D11.hlsl" />
@@ -303,6 +305,7 @@
      <Folder Include="Assets\Ruleta\Diseño\Animacion\Animacion Ruleta juego (final)\seleccion negro\3" />
      <Folder Include="Library\PackageCache\com.unity.probuilder@5.1.1\Content\Icons\Tools\PolyShape" />
      <Folder Include="Library\PackageCache\com.unity.probuilder@5.1.1" />
+     <None Include="Assets\Fonts\read me.txt" />
      <Folder Include="Assets\Materials" />
      <None Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0\package.json" />
      <Folder Include="Assets\Materials\ADG_Textures\Foam Textures\foam1\Materials" />
