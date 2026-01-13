@@ -109,6 +109,7 @@
      <Compile Include="Assets\Scripts\Player\Moneda.cs" />
      <Compile Include="Assets\Scripts\Enemys\Barradeatencion.cs" />
      <Compile Include="Assets\Scripts\Player\Whisky.cs" />
+     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Npcs\ClassDialogo.cs" />
      <Compile Include="Assets\Animaciones\Scripts\camara.cs" />
      <Compile Include="Assets\Scrips\RaceGame\RaceGameManager.cs" />
@@ -240,6 +241,7 @@
      <None Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Shaders\Debug\LightMeter.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <Folder Include="Assets\Materials\dado textures" />
+     <Folder Include="Assets\Scripts\UI" />
      <None Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.probuilder@5.1.1\Content\Icons" />
      <Folder Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2" />
@@ -451,6 +453,7 @@
      <Folder Include="Library\PackageCache\com.unity.probuilder@5.1.1\Content\Icons\Tools\ShapeTool" />
      <None Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\package.json" />
      <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6" />
+     <Folder Include="Assets\Scenes\Copies" />
      <Folder Include="Assets\Dialogo\Gemela Dados Dialogo\AmbasGemelas" />
      <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.24" />
      <Folder Include="Assets\Ruleta\Diseño\Animacion\Animacion Ruleta juego (final)\seleccion rojo(trucado)" />
