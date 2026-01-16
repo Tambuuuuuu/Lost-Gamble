@@ -10,11 +10,11 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         // Buscar el objeto en la jerarquía por nombre
-        pauseMenu = GameObject.Find("PauseMenu(1)");
+        pauseMenu = GameObject.Find("PauseMenu");
 
         if (pauseMenu == null)
         {
-            Debug.LogError("No se encontró el objeto PauseMenu(1) en la jerarquía");
+            Debug.LogError("No se encontró el objeto PauseMenu en la jerarquía");
             return;
         }
 
