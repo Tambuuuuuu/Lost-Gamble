@@ -6,27 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MenuNuevo.unity
+    path: Assets/Assets/Scenes/MenuNuevo.unity
     guid: 3f161ad6535bdef4da20db3879fd94be
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Dados.unity
+    path: Assets/Assets/Scenes/Dados.unity
     guid: dc9200d13686f8d48b8bbff7faecb7ba
   - enabled: 1
-    path: Assets/Scenes/PPT.unity
+    path: Assets/Assets/Scenes/PPT.unity
     guid: 7b2ba2b8a05811541b8cdacf0a8038c1
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
+    path: Assets/Assets/Scenes/Tutorial.unity
     guid: 11dc0c243d61d664491cf438b3910cbd
   - enabled: 1
-    path: Assets/Scenes/Ruleta.unity
+    path: Assets/Assets/Scenes/Ruleta.unity
     guid: 8c1d5fc55ef45ec49a3d66cb6c001250
   - enabled: 1
-    path: Assets/Scenes/Memotest.unity
+    path: Assets/Assets/Scenes/Memotest.unity
     guid: e29826a0c22481a4eb5044547666ebc4
   - enabled: 1
-    path: Assets/Scenes/Fin.unity
+    path: Assets/Assets/Scenes/Fin.unity
     guid: 9329109200baf884eb6c124e5973d8f6
   m_configObjects: {}
