@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 
-public enum ColorType
+/*public enum ColorType
 {
     None,
     Rojo,
@@ -217,5 +217,5 @@ public class Ruleta : Barradeatencion
     public void OnRojoButtonClick() => apostado = (int)ColorType.Rojo;
     public void OnNegroButtonClick() => apostado = (int)ColorType.Negro;
     public void OnVerdeButtonClick() => apostado = (int)ColorType.Verde;
-}
+}*/
 

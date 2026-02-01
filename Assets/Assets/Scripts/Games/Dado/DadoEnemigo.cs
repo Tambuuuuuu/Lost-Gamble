@@ -23,6 +23,6 @@ public class DadoEnemigo : ClassDado
     public override void LanzarDado()
     {
         base.LanzarDado();
-        sound.PlaySecondSound();
+        //sound.PlaySecondSound();
     }
 }

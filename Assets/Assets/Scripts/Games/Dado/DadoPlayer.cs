@@ -30,6 +30,6 @@ public class DadoPlayer : ClassDado
     public override void LanzarDado()
     {
         base.LanzarDado();
-        sound.PlayFirstSound();
+        //sound.PlayFirstSound();
     }
 }

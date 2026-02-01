@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
-public class Combate : Barradeatencion
+/*public class Combate : Barradeatencion
 {
     public enum EstadoTurno
     {
@@ -19,7 +19,7 @@ public class Combate : Barradeatencion
     public GameObject turnoenemigo;
     private DadoPlayer dadoPlayerJugador;
     private DadoEnemigo dadoEnemigo;
-    private Whisky whisky;
+    //private Whisky whisky;
     private Pintura pintura;
     private X2 x2;
     private Contrato contrato;
@@ -372,4 +372,4 @@ public class Combate : Barradeatencion
         contrato.cooldownTurns--;
         kamikaze.cooldownTurns--;
     }
-}
+}*/

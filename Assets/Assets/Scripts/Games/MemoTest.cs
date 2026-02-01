@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class MemoTest : Barradeatencion
+/*public class MemoTest : Barradeatencion
 {
     public enum EstadoTurno
     {
@@ -295,7 +295,7 @@ public class MemoTest : Barradeatencion
         }
     }
 
-}
+}*/
 
 
 

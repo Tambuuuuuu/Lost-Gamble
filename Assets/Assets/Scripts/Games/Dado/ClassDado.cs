@@ -14,11 +14,11 @@ public abstract class ClassDado : MonoBehaviour
     public int dicefacenum;
     [SerializeField] private List<Transform> colliders;
     [SerializeField] private List<Transform> fakeColliders;
-    protected DiceDuelSoundManager sound;
+    //protected DiceDuelSoundManager sound;
     protected virtual void Awake()
     {
         Iniciar();
-        sound = FindObjectOfType<DiceDuelSoundManager>();
+        //sound = FindObjectOfType<DiceDuelSoundManager>();
     }
 
     protected void ObtenerColliders(string tagPj, string number1, string number2, string number3, string tagCara)

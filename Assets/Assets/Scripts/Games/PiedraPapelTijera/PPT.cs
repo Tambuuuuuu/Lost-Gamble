@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using Random = UnityEngine.Random;
-public class PPT : Barradeatencion
+/*public class PPT : Barradeatencion
 {
     public enum EstadoTurno
     {
@@ -386,5 +386,5 @@ public class PPT : Barradeatencion
 
         return options[Random.Range(0, 3)];
     }
-}
+}*/
 

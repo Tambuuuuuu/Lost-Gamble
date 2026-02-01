@@ -41,10 +41,10 @@ public class AnimacionCorrer : MonoBehaviour
     void Update()
     {
         // Combates
-        if (Combate.playerWon) Dado = true;
-        if (PPT.playerWon) Ppt = true;
-        if (Ruleta.playerWon) ruleta = true;
-        if (MemoTest.playerWon) Memo = true;
+        //if (Combate.playerWon) Dado = true;
+        //if (PPT.playerWon) Ppt = true;
+        //if (Ruleta.playerWon) ruleta = true;
+        //if (MemoTest.playerWon) Memo = true;
 
         if (Ppt && Dado && Memo)
         {
