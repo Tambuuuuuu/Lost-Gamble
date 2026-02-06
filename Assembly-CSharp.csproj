@@ -59,9 +59,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Assets\Scripts\Games\CardGame1\TrickController.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\Carta.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\CardGame1\CardGameEnding.cs" />
     <Compile Include="Assets\Scripts Cartas\DebugStacker.cs" />
     <Compile Include="Assets\Assets\Scripts\Animation\Rotacion.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\Mazo.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\Solitario.cs" />
     <Compile Include="Assets\Scripts Cartas\CardModel.cs" />
     <Compile Include="Assets\Assets\Scripts\Animation\AnimacionCorrer.cs" />
@@ -69,6 +71,7 @@
     <Compile Include="Assets\Assets\Scripts\Games\MemoTest.cs" />
     <Compile Include="Assets\Assets\Scripts\World\PlayerMovement.cs" />
     <Compile Include="Assets\Assets\Sound Design\SFXManager.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\GameManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\PiedraPapelTijera\PPT.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\ElegirRuleta.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\RaceGame\RaceGameTrigguer.cs" />
@@ -80,12 +83,15 @@
     <Compile Include="Assets\Assets\Scripts\Games\RaceGame\RaceGameManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\CardGame1\CardGameManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\GameEvent.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\Jugador.cs" />
     <Compile Include="Assets\Assets\Sound Design\SoundMixerManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\Combate.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\ChangeMaterial.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\Selectable.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\UserInput.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\DadoPlayer.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\PlayerData.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\CartaView.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\UpdateSprite.cs" />
     <Compile Include="Assets\Scripts Cartas\CardEventArgs.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\Puntaje.cs" />
@@ -98,6 +104,7 @@
     <Compile Include="Assets\Assets\Scripts\Games\CardGame1\ImagesController.cs" />
     <Compile Include="Assets\Assets\Scripts\Billboarding\spritebillboard2.cs" />
     <Compile Include="Assets\Scripts Cartas\CardStackView.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\TrucoManager.cs" />
     <Compile Include="Assets\Scripts Cartas\DebugDealer.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\Dectector_Numeros.cs" />
     <Compile Include="Assets\Scripts Cartas\CardView.cs" />
@@ -107,6 +114,7 @@
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\UIButtons.cs" />
     <Compile Include="Assets\Assets\Scripts\Animation\camara.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\RaceGame\PlayerRacer.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\EnvidoManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Animation\Movimiento.cs" />
     <Compile Include="Assets\Scripts Cartas\CardStack.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\CardGame1\Cards.cs" />
