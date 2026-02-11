@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,67 +6,53 @@ public class TrucoManager : MonoBehaviour
 {
     private GameManager game;
 
-    public int nivelTruco; // 0 a 3
-    public bool trucoEnCurso;
-    public bool trucoAceptado;
+    private int nivelTruco; // 0 a 3
+    private bool trucoEnCurso;
 
-    public PlayerData quienCanto;
-
-    public TrucoManager(GameManager game)
+    public void Init(GameManager gm)
     {
-        this.game = game;
+        game = gm;
+        Resetear();
     }
 
     public void Resetear()
     {
         nivelTruco = 0;
         trucoEnCurso = false;
-        trucoAceptado = false;
-        quienCanto = null;
     }
 
-    public void CantarTruco(PlayerData jugador)
+    public void CantarTruco()
     {
-        if (nivelTruco < 3)
-        {
-            nivelTruco++;
-            trucoEnCurso = true;
-            quienCanto = jugador;
+        if (nivelTruco >= 3) return;
 
-            Debug.Log(jugador.nombre + " canta " + NombreTruco());
-        }
+        nivelTruco++;
+        trucoEnCurso = true;
+
+        Debug.Log("🗣️ " + NombreTruco());
     }
 
     public void Quiero()
     {
-        trucoAceptado = true;
         trucoEnCurso = false;
-        Debug.Log("Truco aceptado: vale " + ValorActual());
+        Debug.Log("✅ Truco aceptado");
     }
 
     public void NoQuiero()
     {
-        int puntos = ValorActual() - 1;
-        quienCanto.puntos += puntos;
-
-        Debug.Log("No quiso el truco, " + quienCanto.nombre + " suma " + puntos);
-        game.NuevaMano();
+        Debug.Log("❌ No quiso el truco");
+        game.Invoke("IniciarMano", 0.5f);
     }
 
-    public int ValorActual()
+    public int GetPuntos()
     {
         return nivelTruco == 0 ? 1 : nivelTruco + 1;
     }
 
     string NombreTruco()
     {
-        switch (nivelTruco)
-        {
-            case 1: return "TRUCO";
-            case 2: return "RETRUCO";
-            case 3: return "VALE CUATRO";
-        }
-        return "";
+        return nivelTruco == 1 ? "TRUCO" :
+               nivelTruco == 2 ? "RETRUCO" :
+               "VALE CUATRO";
     }
-
 }
+

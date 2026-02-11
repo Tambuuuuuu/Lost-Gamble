@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GameManager : MonoBehaviour
 {
     private Mazo mazo;
@@ -18,27 +19,31 @@ public class GameManager : MonoBehaviour
 
     // Mano
     private bool manoJugador;
+    private bool primeraMano = true;
     private int ganadorPrimeraRonda;
     private bool huboPardaPrimera;
+    private int cartasJugadasPrimeraRonda;
 
     // Mesa
     private Carta cartaJugadorMesa;
     private Carta cartaIAMesa;
 
-    // Envido
+    // Truco (básico)
+    private int nivelTruco;
+
+    // ================= ENVIDO =================
     private bool envidoEnCurso;
-    private bool envidoResuelto;
     private int puntosEnvidoEnJuego;
-    private bool esFaltaEnvido;
-    private int jugadorQueCantoEnvido;
+    private int cantosEnvido; // cantidad de cantos hechos
+    private TipoEnvido tipoEnvidoActual;
 
-    // Truco
-    private int nivelTruco; // 0 a 3
-    private bool trucoEnCurso;
-    private bool trucoAceptado;
-    private int jugadorQueCantoTruco;
-
-    private int cartasJugadasPrimeraRonda;
+    enum TipoEnvido
+    {
+        Ninguno,
+        Envido,
+        RealEnvido,
+        FaltaEnvido
+    }
 
     void Start()
     {
@@ -52,29 +57,36 @@ public class GameManager : MonoBehaviour
         IniciarMano();
     }
 
+    void Update()
+    {
+        if (envidoEnCurso) return;
+        if (cartaJugadorMesa != null) return;
+
+        if (Input.GetKeyDown(KeyCode.Alpha1)) JugarCartaJugador(1);
+        if (Input.GetKeyDown(KeyCode.Alpha2)) JugarCartaJugador(2);
+        if (Input.GetKeyDown(KeyCode.Alpha3)) JugarCartaJugador(3);
+    }
+
+    // ================= MANO =================
+
     void IniciarMano()
     {
         rondasJugador = 0;
         rondasIA = 0;
-
         ganadorPrimeraRonda = 0;
         huboPardaPrimera = false;
+        cartasJugadasPrimeraRonda = 0;
 
         cartaJugadorMesa = null;
         cartaIAMesa = null;
 
-        envidoEnCurso = false;
-        envidoResuelto = false;
-        puntosEnvidoEnJuego = 0;
-        esFaltaEnvido = false;
-
         nivelTruco = 0;
-        trucoEnCurso = false;
-        trucoAceptado = false;
 
-        cartasJugadasPrimeraRonda = 0;
-
-        manoJugador = Random.value > 0.5f;
+        // ENVIDO RESET
+        envidoEnCurso = false;
+        puntosEnvidoEnJuego = 0;
+        cantosEnvido = 0;
+        tipoEnvidoActual = TipoEnvido.Ninguno;
 
         jugador.LimpiarMano();
         ia.LimpiarMano();
@@ -88,63 +100,99 @@ public class GameManager : MonoBehaviour
             ia.RecibirCarta(mazo.RobarCarta());
         }
 
-        Debug.Log("---- NUEVA MANO ----");
-        Debug.Log(manoJugador ? "Jugador es MANO" : "IA es MANO");
+        if (primeraMano)
+        {
+            manoJugador = Random.value > 0.5f;
+            primeraMano = false;
+        }
+        else
+        {
+            manoJugador = !manoJugador;
+        }
 
-        if (!manoJugador)
-            JugarCartaIA();
+        Debug.Log("================================");
+        Debug.Log("🆕 NUEVA MANO");
+        Debug.Log(manoJugador ? "👉 Jugador es MANO" : "🤖 IA es MANO");
 
         MostrarCartasJugador();
+
+        if (!manoJugador)
+            EvaluarEnvidoIA();
     }
 
-    void Update()
+    // ================= ENVIDO =================
+
+    public void CantarEnvido()
     {
-        if (cartaJugadorMesa == null)
-        {
-            if (Input.GetKeyDown(KeyCode.Alpha1)) JugarCartaJugador(0);
-            if (Input.GetKeyDown(KeyCode.Alpha2)) JugarCartaJugador(1);
-            if (Input.GetKeyDown(KeyCode.Alpha3)) JugarCartaJugador(2);
-        }
+        if (!EsPrimeraRonda() || envidoEnCurso) return;
 
-        if (PuedeCantarEnvido())
-        {
-            if (Input.GetKeyDown(KeyCode.E)) CantarEnvido(1);
-            if (Input.GetKeyDown(KeyCode.R)) CantarRealEnvido(1);
-            if (Input.GetKeyDown(KeyCode.F)) CantarFaltaEnvido(1);
-        }
-
-        if (Input.GetKeyDown(KeyCode.T)) CantarTruco(1);
-    }
-
-    bool PuedeCantarEnvido()
-    {
-        return !envidoResuelto &&
-               rondasJugador + rondasIA == 0 &&
-               cartasJugadasPrimeraRonda < 2;
-    }
-
-    void CantarEnvido(int quien)
-    {
         envidoEnCurso = true;
-        jugadorQueCantoEnvido = quien;
-        puntosEnvidoEnJuego += 2;
-        Debug.Log("ENVIDO");
+        tipoEnvidoActual = TipoEnvido.Envido;
+        puntosEnvidoEnJuego = 2;
+        cantosEnvido = 1;
+
+        Debug.Log("🗣️ JUGADOR canta ENVIDO");
+
+        ResponderEnvidoIA();
     }
 
-    void CantarRealEnvido(int quien)
+    public void CantarRealEnvido()
     {
-        envidoEnCurso = true;
-        jugadorQueCantoEnvido = quien;
+        if (!envidoEnCurso) return;
+
+        tipoEnvidoActual = TipoEnvido.RealEnvido;
         puntosEnvidoEnJuego += 3;
-        Debug.Log("REAL ENVIDO");
+        cantosEnvido++;
+
+        Debug.Log("🗣️ JUGADOR canta REAL ENVIDO");
+
+        ResponderEnvidoIA();
     }
 
-    void CantarFaltaEnvido(int quien)
+    public void CantarFaltaEnvido()
     {
-        envidoEnCurso = true;
-        jugadorQueCantoEnvido = quien;
-        esFaltaEnvido = true;
-        Debug.Log("FALTA ENVIDO");
+        if (!envidoEnCurso) return;
+
+        tipoEnvidoActual = TipoEnvido.FaltaEnvido;
+        cantosEnvido++;
+
+        Debug.Log("🗣️ JUGADOR canta FALTA ENVIDO");
+
+        ResponderEnvidoIA();
+    }
+
+    void EvaluarEnvidoIA()
+    {
+        int eIA = ia.CalcularEnvido();
+
+        if (eIA >= 20 && EsPrimeraRonda())
+        {
+            envidoEnCurso = true;
+            tipoEnvidoActual = TipoEnvido.Envido;
+            puntosEnvidoEnJuego = 2;
+            cantosEnvido = 1;
+
+            Debug.Log($"🤖 IA canta ENVIDO (tiene {eIA})");
+
+            ResolverEnvido();
+        }
+    }
+
+    void ResponderEnvidoIA()
+    {
+        int eIA = ia.CalcularEnvido();
+        Debug.Log($"🤖 Envido IA: {eIA}");
+
+        if (eIA >= 20)
+        {
+            Debug.Log("🤖 IA QUIERE");
+            ResolverEnvido();
+        }
+        else
+        {
+            Debug.Log("🤖 IA NO QUIERE");
+            NoQuisoEnvido(2);
+        }
     }
 
     void ResolverEnvido()
@@ -152,47 +200,59 @@ public class GameManager : MonoBehaviour
         int eJugador = jugador.CalcularEnvido();
         int eIA = ia.CalcularEnvido();
 
+        Debug.Log($"🧮 Envido Jugador: {eJugador}");
+        Debug.Log($"🧮 Envido IA: {eIA}");
+
         int ganador =
             eJugador > eIA ? 1 :
             eIA > eJugador ? 2 :
-            (manoJugador ? 1 : 2);
+            manoJugador ? 1 : 2;
 
-        int puntos = esFaltaEnvido
-            ? 15 - (ganador == 1 ? puntosJugador : puntosIA)
-            : puntosEnvidoEnJuego;
+        int puntos;
+
+        if (tipoEnvidoActual == TipoEnvido.FaltaEnvido)
+        {
+            puntos = 15 - (ganador == 1 ? puntosJugador : puntosIA);
+        }
+        else
+        {
+            puntos = puntosEnvidoEnJuego;
+        }
 
         if (ganador == 1) puntosJugador += puntos;
         else puntosIA += puntos;
 
-        envidoResuelto = true;
-        Debug.Log("Envido ganado por " + (ganador == 1 ? "Jugador" : "IA"));
-    }
-    public void NuevaMano()
-    {
+        Debug.Log($"🏆 ENVIDO para {(ganador == 1 ? "Jugador" : "IA")} (+{puntos})");
+        Debug.Log($"📊 PUNTOS → Jugador {puntosJugador} | IA {puntosIA}");
+
         IniciarMano();
     }
 
-    void CantarTruco(int quien)
+    void NoQuisoEnvido(int quienNoQuiso)
     {
-        if (nivelTruco < 3)
-        {
-            nivelTruco++;
-            trucoEnCurso = true;
-            jugadorQueCantoTruco = quien;
+        int ganador = quienNoQuiso == 1 ? 2 : 1;
+        int puntos = cantosEnvido;
 
-            Debug.Log(nivelTruco == 1 ? "TRUCO" :
-                      nivelTruco == 2 ? "RETRUCO" :
-                                        "VALE CUATRO");
-        }
+        if (ganador == 1) puntosJugador += puntos;
+        else puntosIA += puntos;
+
+        Debug.Log($"🚪 {(quienNoQuiso == 1 ? "Jugador" : "IA")} NO QUIERE (+{puntos})");
+        Debug.Log($"📊 PUNTOS → Jugador {puntosJugador} | IA {puntosIA}");
+
+        IniciarMano();
     }
 
-    void JugarCartaJugador(int index)
+    // ================= CARTAS =================
+
+    void JugarCartaJugador(int numeroTecla)
     {
-        if (index >= jugador.mano.Count) return;
+        int index = numeroTecla - 1;
+        if (index < 0 || index >= jugador.mano.Count) return;
 
         cartaJugadorMesa = jugador.JugarCarta(index);
         cartasJugadasPrimeraRonda++;
-        Debug.Log("Jugador juega: " + cartaJugadorMesa);
+
+        Debug.Log($"🃏 Jugador juega [{numeroTecla}]: {cartaJugadorMesa}");
 
         if (cartaIAMesa == null)
             JugarCartaIA();
@@ -203,20 +263,16 @@ public class GameManager : MonoBehaviour
     void JugarCartaIA()
     {
         cartaIAMesa = ia.JugarCartaIA();
-        cartasJugadasPrimeraRonda++;
-        Debug.Log("IA juega: " + cartaIAMesa);
+        Debug.Log($"🤖 IA juega: {cartaIAMesa}");
     }
+
+    // ================= RONDAS =================
 
     void ResolverRonda()
     {
-        if (cartaJugadorMesa == null || cartaIAMesa == null) return;
-
-        if (cartaJugadorMesa.jerarquia < cartaIAMesa.jerarquia)
-            GanaRonda(1);
-        else if (cartaJugadorMesa.jerarquia > cartaIAMesa.jerarquia)
-            GanaRonda(2);
-        else
-            Parda();
+        if (cartaJugadorMesa.jerarquia < cartaIAMesa.jerarquia) GanaRonda(1);
+        else if (cartaJugadorMesa.jerarquia > cartaIAMesa.jerarquia) GanaRonda(2);
+        else Parda();
 
         cartaJugadorMesa = null;
         cartaIAMesa = null;
@@ -234,16 +290,20 @@ public class GameManager : MonoBehaviour
         {
             rondasJugador++;
             manoJugador = true;
+            Debug.Log("✅ Ronda Jugador");
         }
         else
         {
             rondasIA++;
             manoJugador = false;
+            Debug.Log("❌ Ronda IA");
         }
     }
 
     void Parda()
     {
+        Debug.Log("⚖️ PARDA");
+
         if (rondasJugador + rondasIA == 0)
             huboPardaPrimera = true;
         else if (huboPardaPrimera)
@@ -266,25 +326,30 @@ public class GameManager : MonoBehaviour
         if (ganador == 1) puntosJugador += puntos;
         else puntosIA += puntos;
 
-        Debug.Log("Mano ganada por " + (ganador == 1 ? "Jugador" : "IA"));
+        Debug.Log($"🏆 MANO {(ganador == 1 ? "Jugador" : "IA")} (+{puntos})");
+        Debug.Log($"📊 PUNTOS → Jugador {puntosJugador} | IA {puntosIA}");
 
         IniciarMano();
     }
 
+    // ================= DEBUG =================
+
     void MostrarCartasJugador()
     {
+        Debug.Log("🃏 CARTAS DEL JUGADOR:");
         for (int i = 0; i < jugador.mano.Count; i++)
-            Debug.Log($"{i}: {jugador.mano[i]}");
+            Debug.Log($"[{i + 1}] {jugador.mano[i]}");
     }
+
+    // ================= GETTERS =================
+
     public Jugador GetJugador() => jugador;
     public Jugador GetIA() => ia;
     public bool EsManoJugador() => manoJugador;
-
-    // Primera ronda = todavía no se ganó ninguna ronda
-    public bool EsPrimeraRonda()
-    {
-        return rondasJugador + rondasIA == 0;
-    }
+    public bool EsPrimeraRonda() => rondasJugador + rondasIA == 0;
+    public int GetPuntosJugador() => puntosJugador;
+    public int GetPuntosIA() => puntosIA;
 
 }
+
 

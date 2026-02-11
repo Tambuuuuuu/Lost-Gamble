@@ -54,6 +54,8 @@ public class Mazo
     {
         Carta carta = cartas[0];
         cartas.RemoveAt(0);
+
         return carta;
+
     }
 }

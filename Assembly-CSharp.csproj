@@ -79,13 +79,16 @@
     <Compile Include="Assets\Assets\Scripts\Games\Ruleta\TrucoRuleta.cs" />
     <Compile Include="Assets\Assets\Scripts\World\CameraController.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Ruleta\Ruleta.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\Repartidor.cs" />
     <Compile Include="Assets\Assets\Scripts\UI\EventManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\RaceGame\RaceGameManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\CardGame1\CardGameManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\GameEvent.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\SlotCarta.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\Jugador.cs" />
     <Compile Include="Assets\Assets\Sound Design\SoundMixerManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\Combate.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\UImanager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\ChangeMaterial.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\Selectable.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\UserInput.cs" />
@@ -112,6 +115,7 @@
     <Compile Include="Assets\Scripts Cartas\GameController.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\DadoEnemigo.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\UIButtons.cs" />
+    <Compile Include="Assets\Assets\Scripts\Games\Truco\BotonCanto.cs" />
     <Compile Include="Assets\Assets\Scripts\Animation\camara.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\RaceGame\PlayerRacer.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\EnvidoManager.cs" />
