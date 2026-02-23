@@ -69,15 +69,14 @@
     <Compile Include="Assets\Assets\Scripts\Animation\AnimacionCorrer.cs" />
     <Compile Include="Assets\Scripts Cartas\DebugChangeCard.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\MemoTest.cs" />
-    <Compile Include="Assets\Assets\Scripts\World\PlayerMovement.cs" />
     <Compile Include="Assets\Assets\Sound Design\SFXManager.cs" />
+    <Compile Include="Assets\Scripts Cartas\SoundManager\SoundManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\GameManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\PiedraPapelTijera\PPT.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\ElegirRuleta.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\RaceGame\RaceGameTrigguer.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\CardGame1\CardGameTrigguer.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Ruleta\TrucoRuleta.cs" />
-    <Compile Include="Assets\Assets\Scripts\World\CameraController.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Ruleta\Ruleta.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\Repartidor.cs" />
     <Compile Include="Assets\Assets\Scripts\UI\EventManager.cs" />
@@ -89,8 +88,10 @@
     <Compile Include="Assets\Assets\Sound Design\SoundMixerManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\Combate.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\UImanager.cs" />
+    <Compile Include="Assets\ThirdPersonCam.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\ChangeMaterial.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\Selectable.cs" />
+    <Compile Include="Assets\Assets\Scripts\NewPlayerMovementTutorial.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\UserInput.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\DadoPlayer.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\PlayerData.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="Assets\Assets\Scripts\Games\Dado\Puntaje.cs" />
     <Compile Include="Assets\Scripts Cartas\CardFlipper.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\RaceGame\PlayerWin.cs" />
+    <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts Cartas\DebugDrag.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\ClassDado.cs" />
     <Compile Include="Assets\Assets\Art\2D Art\Tricks\Whisky\EndAnimation.cs" />
@@ -781,6 +783,9 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
@@ -867,6 +872,9 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
