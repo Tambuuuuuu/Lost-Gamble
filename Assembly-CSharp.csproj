@@ -94,6 +94,7 @@
     <Compile Include="Assets\Assets\Scripts\NewPlayerMovementTutorial.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\UserInput.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\DadoPlayer.cs" />
+    <Compile Include="Assets\Assets\Scripts\NPCDialogue.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\PlayerData.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\CartaView.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\UpdateSprite.cs" />
@@ -118,6 +119,7 @@
     <Compile Include="Assets\Assets\Scripts\Games\Dado\DadoEnemigo.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\UIButtons.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\BotonCanto.cs" />
+    <Compile Include="Assets\Assets\Scripts\Dialogo.cs" />
     <Compile Include="Assets\Assets\Scripts\Animation\camara.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\RaceGame\PlayerRacer.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\EnvidoManager.cs" />

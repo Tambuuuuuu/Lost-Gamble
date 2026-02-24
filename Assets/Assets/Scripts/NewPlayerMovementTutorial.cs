@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -16,6 +16,7 @@ public class NewPlayerMovement : MonoBehaviour
 
     [Header("References")]
     public Transform orientation;
+    public Dialogo dialogo;
 
     float horizontalInput;
     float verticalInput;
@@ -23,29 +24,50 @@ public class NewPlayerMovement : MonoBehaviour
     Vector3 moveDirection;
     Rigidbody rb;
 
+    bool bloqueado;
+
+    RigidbodyConstraints originalConstraints;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+
+        // Guardamos constraints originales
+        originalConstraints = rb.constraints;
     }
 
     private void Update()
     {
-        // Chequeo de suelo mediante Raycast
-        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
+        // ðŸ”’ BLOQUEO TOTAL (movimiento + rotaciÃ³n)
+        if (dialogo != null && dialogo.hablando)
+        {
+            if (!bloqueado)
+                Bloquear();
+
+            return;
+        }
+        else if (bloqueado)
+        {
+            Desbloquear();
+        }
+
+        grounded = Physics.Raycast(
+            transform.position,
+            Vector3.down,
+            playerHeight * 0.5f + 0.2f,
+            whatIsGround
+        );
 
         MyInput();
         SpeedControl();
 
-        // Aplicar drag solo si está en el suelo
-        if (grounded)
-            rb.drag = groundDrag;
-        else
-            rb.drag = 0;
+        rb.drag = grounded ? groundDrag : 0;
     }
 
     private void FixedUpdate()
     {
+        if (bloqueado) return;
         MovePlayer();
     }
 
@@ -57,11 +79,8 @@ public class NewPlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
-        // Calculamos la dirección basándonos en el objeto 'orientation'
-        // Asegúrate de que el objeto 'orientation' esté asignado en el Inspector
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-        // Si hay input, aplicamos fuerza
         if (moveDirection.magnitude > 0.1f)
         {
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
@@ -72,11 +91,32 @@ public class NewPlayerMovement : MonoBehaviour
     {
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
-        // Limitar la velocidad si excede el moveSpeed
         if (flatVel.magnitude > moveSpeed)
         {
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
             rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
         }
+    }
+
+
+    void Bloquear()
+    {
+        bloqueado = true;
+
+        rb.velocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+
+        rb.isKinematic = true;
+
+        rb.constraints = RigidbodyConstraints.FreezeAll;
+    }
+
+    void Desbloquear()
+    {
+        bloqueado = false;
+
+        rb.isKinematic = false;
+
+        rb.constraints = originalConstraints;
     }
 }
