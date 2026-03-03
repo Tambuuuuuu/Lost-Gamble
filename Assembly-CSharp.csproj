@@ -69,6 +69,7 @@
     <Compile Include="Assets\Assets\Scripts\Animation\AnimacionCorrer.cs" />
     <Compile Include="Assets\Scripts Cartas\DebugChangeCard.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\MemoTest.cs" />
+    <Compile Include="Assets\New Scripts\Currency.cs" />
     <Compile Include="Assets\Assets\Sound Design\SFXManager.cs" />
     <Compile Include="Assets\Scripts Cartas\SoundManager\SoundManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\GameManager.cs" />
@@ -88,9 +89,10 @@
     <Compile Include="Assets\Assets\Sound Design\SoundMixerManager.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\Combate.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\UImanager.cs" />
-    <Compile Include="Assets\ThirdPersonCam.cs" />
+    <Compile Include="Assets\New Scripts\ThirdPersonCam.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\ChangeMaterial.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\Selectable.cs" />
+    <Compile Include="Assets\New Scripts\Shop.cs" />
     <Compile Include="Assets\Assets\Scripts\NewPlayerMovementTutorial.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Solitario\UserInput.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\DadoPlayer.cs" />
@@ -102,7 +104,6 @@
     <Compile Include="Assets\Assets\Scripts\Games\Dado\Puntaje.cs" />
     <Compile Include="Assets\Scripts Cartas\CardFlipper.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\RaceGame\PlayerWin.cs" />
-    <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts Cartas\DebugDrag.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Dado\ClassDado.cs" />
     <Compile Include="Assets\Assets\Art\2D Art\Tricks\Whisky\EndAnimation.cs" />
@@ -123,9 +124,12 @@
     <Compile Include="Assets\Assets\Scripts\Animation\camara.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\RaceGame\PlayerRacer.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\Truco\EnvidoManager.cs" />
+    <Compile Include="Assets\New Scripts\CurrencyUI.cs" />
     <Compile Include="Assets\Assets\Scripts\Animation\Movimiento.cs" />
     <Compile Include="Assets\Scripts Cartas\CardStack.cs" />
     <Compile Include="Assets\Assets\Scripts\Games\CardGame1\Cards.cs" />
+    <Compile Include="Assets\New Scripts\ShopItem.cs" />
+    <Compile Include="Assets\New Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
