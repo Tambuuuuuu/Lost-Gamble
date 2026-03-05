@@ -66,6 +66,7 @@
      <Compile Include="Assets\Assets\Scripts\Games\RaceGame\RaceGameTrigguer.cs" />
      <Compile Include="Assets\Assets\Scripts\Games\CardGame1\CardGameTrigguer.cs" />
      <Compile Include="Assets\Assets\Scripts\Games\Ruleta\TrucoRuleta.cs" />
+     <Compile Include="Assets\Assets\Scripts\UI\ToggleObject.cs" />
      <Compile Include="Assets\Assets\Scripts\Games\Ruleta\Ruleta.cs" />
      <Compile Include="Assets\Assets\Scripts\Games\Truco\Repartidor.cs" />
      <Compile Include="Assets\Assets\Scripts\UI\EventManager.cs" />
@@ -85,6 +86,7 @@
      <Compile Include="Assets\Assets\Scripts\Games\Solitario\UserInput.cs" />
      <Compile Include="Assets\Assets\Scripts\Games\Dado\DadoPlayer.cs" />
      <Compile Include="Assets\Assets\Scripts\NPCDialogue.cs" />
+     <Compile Include="Assets\Assets\Scripts\UI\DraggableUI.cs" />
      <Compile Include="Assets\Assets\Scripts\Games\Truco\PlayerData.cs" />
      <Compile Include="Assets\Assets\Scripts\Games\Truco\CartaView.cs" />
      <Compile Include="Assets\Assets\Scripts\Games\Solitario\UpdateSprite.cs" />
@@ -97,6 +99,7 @@
      <Compile Include="Assets\Assets\Art\2D Art\Tricks\Whisky\EndAnimation.cs" />
      <Compile Include="Assets\Assets\Scripts\Games\Solitario\ScoreKeeper.cs" />
      <Compile Include="Assets\Assets\Scripts\Games\CardGame1\ImagesController.cs" />
+     <Compile Include="Assets\Assets\Scripts\UI\AlphaHitTestEnabler.cs" />
      <Compile Include="Assets\Assets\Scripts\Billboarding\spritebillboard2.cs" />
      <Compile Include="Assets\Scripts Cartas\CardStackView.cs" />
      <Compile Include="Assets\Assets\Scripts\Games\Truco\TrucoManager.cs" />
@@ -138,6 +141,7 @@
      <None Include="Library\PackageCache\com.unity.modules.cloth@1.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.probuilder@5.1.1\Content\Shader\NormalPreview.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets\Assets\Art\2D Art\UI\Skill Tree\Nodos(Activados_Desactivados)" />
      <Folder Include="Library\PackageCache\com.unity.modules.imgui@1.0.0" />
      <None Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Shaders\Builtins\Distortion.hlsl" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
@@ -406,6 +410,7 @@
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\Assets\Scripts\Dialogue" />
      <None Include="Library\PackageCache\com.unity.postprocessing@3.2.2\PostProcessing\Shaders\Builtins\DiscardAlpha.shader" />
+     <Folder Include="Assets\Assets\Art\2D Art\UI\Skill Tree\Estructura" />
      <Folder Include="Assets\Assets\Art\Materials\ADG_Textures\Foam Textures" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <None Include="Library\PackageCache\com.unity.probuilder@5.1.1\Content\Shader\ProBuilderCG.cginc" />
